@@ -1,0 +1,337 @@
+country_decisions = {
+
+	form_Kush = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = MEO }
+			NOT = { tag = MEO }
+			OR = {
+				primary_culture = nubian
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				religion = coptic
+				religion_group = pagan
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 2797		#Meroe(Shendy)
+			owns_core_province = 2798			
+			owns_core_province = 1220			
+			owns_core_province = 1228
+			owns_core_province = 2322
+			owns_core_province = 1234
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			upper_egypt_area = {
+				add_permanent_claim = MEO
+			}
+			2323 = {
+				add_permanent_claim = MEO
+			}
+			1229 = {
+				add_permanent_claim = MEO
+			}
+			2324 = {
+				add_permanent_claim = MEO
+			}
+			1232 = {
+				add_permanent_claim = MEO
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = MEO
+			MEO = {
+				set_capital = 2797
+			}
+			2797 = { change_province_name = Meroe rename_capital = Meroe }
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Kushite_egypt = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			is_playing_custom_nation = no
+			NOT = { exists = EGY }
+			tag = MEO
+			OR = {
+				primary_culture = nubian
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 358
+			owns_core_province = 361
+			owns_core_province = 362
+			owns_core_province = 2316
+			owns_core_province = 359
+			owns_core_province = 2317
+			owns_core_province = 360
+			owns_core_province = 2319
+			owns_core_province = 1231
+		}
+		effect = {
+			1234 = { change_province_name = Faras rename_capital = Faras }
+			2322 = { change_province_name = Buhen rename_capital = Buhen }
+			1220 = { change_province_name = Napata rename_capital = Napata }
+			2798 = { change_province_name = Khartoum rename_capital = Khartoum }
+			2797 = { change_province_name = Meroe rename_capital = Meroe }
+			set_dynasty = "Napatan"
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			egypt_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = EGP
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = EGP
+			change_primary_culture = wasetic
+			add_accepted_culture = nubian
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_EGP = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = EGY }
+			NOT = { exists = EGP }
+			NOT = { tag = EGP}
+			OR = {
+				primary_culture = kemetic
+				primary_culture = wasetic
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 358
+			owns_core_province = 361
+			owns_core_province = 362
+			owns_core_province = 2316
+			owns_core_province = 359
+			owns_core_province = 2317
+			owns_core_province = 360
+			owns_core_province = 2319
+			owns_core_province = 1231
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			egypt_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = EGP
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = EGP
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Bubastis_restoration = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = EGY }
+			NOT = { exists = EGP }
+			NOT = { tag = EGP}
+			OR = {
+				tag = LYB
+				primary_culture = lybian
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				religion_group = christian 
+				religion_group = pagan
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 358
+			owns_core_province = 361
+			owns_core_province = 362
+			owns_core_province = 2316
+			owns_core_province = 359
+			owns_core_province = 2317
+			owns_core_province = 360
+			owns_core_province = 2319
+			owns_core_province = 1231
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			egypt_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = EGP
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = EGP
+			set_capital = 2316
+			add_accepted_culture = lybian
+			change_primary_culture = kemetic
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}	
+	

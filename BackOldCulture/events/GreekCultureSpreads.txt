@@ -1,0 +1,567 @@
+namespace = greek_culture_conversion
+
+# spread of the primary culture in your country
+# spreads event gets activated by the province which will change culture
+province_event = {
+	id = greek_culture_conversion.1
+	title = greek_culture_conversion.t
+	desc = greek_culture_conversion.d
+	picture = CULTURE_eventPicture
+	fire_only_once = no
+	
+	trigger = {
+		has_owner_culture = no
+		not = { has_construction = culture } # no forceful culture conversion
+		tolerance_to_this = 0 # the religion of the province has to be tolerated
+		is_core = owner # province must be cored
+		controlled_by = owner # province must not be occupied
+		not = { nationalism = 1 } # province must not have nationalists
+		not = { local_autonomy = 81 } # province must not by too autonomous
+		
+		#VerifCulture
+		OR = {
+			#Indian#
+			region = west_india_region
+			region = bengal_region
+			region = hindusthan_region
+			region = deccan_region
+			region = coromandel_region
+							
+			#Bactrian
+			AND = {
+				region = central_asia_region
+				NOT = {
+					area = balchasj_area
+					area = jetysuu_area
+				}
+			}
+			
+			AND = {
+				region = khorasan_region
+				NOT = {
+					province_id = 436
+					province_id = 2235
+					province_id = 2236
+					province_id = 2250
+					province_id = 2221
+				}
+			}
+			
+			#Persia
+			region = persia_region
+			
+			#Babylonian & Semitic
+			region = mashriq_region
+			
+			#Semitic
+			region = mashriq_region
+			
+			#Capadocian & pontic
+			region = anatolia_region
+			
+			#Egyptian
+			region = egypt_region
+			
+			#Maghrebian
+			region = maghreb_region
+			
+			#Cimmerian
+			region = crimea_region
+			
+			#Pontic
+			region = caucasia_region
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1200 # 100 years
+
+		### special modifiers ###
+		modifier = { # make it almost impossible to fire if last province with that culture
+			factor = 7.5
+			not = { # no other country may have such a province
+				any_province = {
+					not = { owned_by = PREV }
+					culture = PREV
+				}
+			}
+			not = { # this county must have at most one
+				owner = {
+					num_of_owned_provinces_with = {
+						value = 2
+						culture = ROOT
+					}
+				}
+			}
+		}
+		modifier = { # convert much faster if in the same area as the capital
+			factor = 0.85
+			is_in_capital_area = yes
+		}
+		modifier = { # convert much faster if the culture is an accepted culture
+			factor = 0.65
+			has_owner_accepted_culture = yes
+		}
+		#modifier = { # primary culture converts slower as there is no reason to convert
+		#	factor = 3.5
+		#	has_owner_culture = yes
+		#}
+		### ideas ###
+		modifier = { # accepted cultures convert even slower if idea Cultural Ties is bought
+			factor = 1.15 # makes accepted cultures give factor 2.0 all in all (threshold/3)
+			has_owner_accepted_culture = yes
+			has_idea = cultural_ties # accepted culture threshold -0.5
+		}
+		modifier = { # convert slower if coring is expensive
+			factor = 1.5 # core creation cost/2
+			has_idea = local_nobility # core creation cost +1.0
+		}
+		modifier = { # convert faster if coring is cheap
+			factor = 0.875 # core creation cost/2
+			has_idea = adaptability # core creation cost -0.25
+		}
+		modifier = { # convert faster if conversion is cheap
+			factor = 0.92 # conversion cost/3
+			has_idea = inquisition # culture conversion cost -0.25
+		}
+		### cultures ###
+		#modifier = { # accepted cultures convert slower as there is no reason to convert
+		#	factor = 1.75
+		#	has_owner_accepted_culture = yes
+		#}
+		modifier = { # provinces from a different culture group convert slower
+			factor = 1.5
+			not = {
+				culture_group = owner
+			}
+		}
+		modifier = { # convert really slow if accepted culture of a cultural union
+			factor = 4.0
+			culture_group = owner
+			or = { # requirements for cultural unions since v1.14
+				and = {
+					not = { has_dlc = "Common Sense" }
+					owner = { total_development = 1000 }
+				}
+				and = {
+					has_dlc = "Common Sense"
+					owner = { government_rank = 3 }
+				}
+			}
+		}
+		### local autonomy ###
+		# make it resemble a logistical curve
+		modifier = {
+			factor = 1.04 # 1.04 overall
+			local_autonomy = 5
+		}
+		modifier = {
+			factor = 1.06 # ~1.10 overall
+			local_autonomy = 10
+		}
+		modifier = {
+			factor = 1.065 # ~1.17 overall
+			local_autonomy = 15
+		}
+		modifier = {
+			factor = 1.07 # ~1.26 overall
+			local_autonomy = 20
+		}
+		modifier = {
+			factor = 1.15 # ~1.44 overall
+			local_autonomy = 30
+		}
+		modifier = {
+			factor = 1.15 # ~1.66 overall
+			local_autonomy = 40
+		}
+		modifier = {
+			factor = 1.15 # ~1.91 overall
+			local_autonomy = 50
+		}
+		modifier = {
+			factor = 1.12 # ~2.14 overall
+			local_autonomy = 60
+		}
+		modifier = {
+			factor = 1.075 # ~2.30 overall
+			local_autonomy = 70
+		}
+		modifier = { # make the influence of autonomy because of estates about half as severe
+			factor = 0.85
+			has_estate = yes
+		}
+		### religion ###
+		modifier = { # faster conversion if highly tolerant towards this religion
+			factor = 0.9
+			tolerance_to_this = 2
+		}
+		### development ###
+		modifier = { # slow conversion if low base tax (sparse population)
+			factor = 1.7
+			not = {
+				development = 7
+			}
+			or = {
+				not = {
+					owner = { government = steppe_horde }
+				}
+				and = { # not for nomade-type lands iff nomade
+					owner = { government = steppe_horde }
+					not = { has_terrain = farmlands }
+					not = { has_terrain = grasslands }
+					not = { has_terrain = drylands }
+					not = { has_terrain = savannah }
+					not = { has_terrain = steppe }
+					not = { has_terrain = desert }
+					not = { has_terrain = coastal_desert }
+				}
+			}
+		}
+		modifier = { # slower conversion if high development (high population)
+			factor = 1.3
+			development = 16
+		}
+		modifier = { # even slower conversion if very high development (huge population)
+			factor = 1.2
+			development = 26
+		}
+		modifier = { # even slower conversion if enormous development (metropolis)
+			factor = 1.1
+			development = 46
+		}
+		### terrain ###
+		modifier = { # very slow conversion if remote (low development, +4 supply)
+			factor = 1.7
+			not = { # with high development it cannot really be considered remote anymore
+				development = 12
+			}
+			or = {
+				has_terrain = glacier
+				has_terrain = hills
+				has_terrain = mountain
+				has_terrain = jungle
+				has_terrain = marsh
+				and = {
+					or = {
+						has_terrain = savannah
+						has_terrain = desert
+						has_terrain = coastal_desert
+					}
+					not = { # not for nomads
+						owner = { government = steppe_horde }
+					}
+				}
+			}
+		}
+		modifier = { # quite slow conversion if a little remote (medium development, +4 supply)
+			factor = 1.35 # half of the above
+			base_tax = 12
+			or = {
+				has_terrain = glacier
+				has_terrain = hills
+				has_terrain = mountain
+				has_terrain = jungle
+				has_terrain = marsh
+				and = {
+					or = {
+						has_terrain = savannah
+						has_terrain = desert
+						has_terrain = coastal_desert
+					}
+					not = { # not for nomads
+						owner = { government = steppe_horde }
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.95
+			has_port = yes
+		}
+		### buildings ###
+		modifier = {
+			factor = 0.95
+			has_building = marketplace
+		}
+		modifier = {
+			factor = 0.965
+			has_building = trade_depot
+		}
+		modifier = {
+			factor = 0.98
+			has_building = stock_exchange
+		}
+		modifier = {
+			factor = 0.9
+			has_building = university
+		}
+		### government ###
+		modifier = { # because of lowered accepted culture limit
+			factor = 1.03
+			has_owner_accepted_culture = yes
+			owner = { government = enlightened_despotism }
+		}
+		modifier = { # because of cheaper culture conversion cost
+			factor = 0.97
+			owner = { government = administrative_republic }
+		}
+		# government = steppe_horde is already taken care of in earlier modifiers
+		modifier = { # to allow for quick assimilation of native cultures
+			factor = 0.75
+			owner = { is_colonial_nation = yes } # i.e. government = colonial_government
+		}
+		modifier = { # to hinder quick assimilation in trade companies
+			factor = 2.5
+			is_owned_by_trade_company = yes
+		}
+	}
+	
+	#let the spread happen
+	option = {
+		name = "DCC_ApproveAcceptedSpread"
+		ai_chance = {
+			factor = 99
+			modifier = {
+				factor = 0 # 0% chance
+				unrest = 4
+			}
+		}
+		
+		#India
+		if = {
+			limit = {
+				OR = {
+					region = west_india_region
+					region = bengal_region
+					region = hindusthan_region
+					region = deccan_region
+					region = coromandel_region
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = greco_indian
+		}
+		
+		#Bactria
+		if = {
+			limit = {
+				AND = {
+					OR = {
+						region = central_asia_region
+						region = khorasan_region
+					}
+					NOT = {
+						area = balchasj_area
+						area = jetysuu_area
+						area = transcaspia_area
+						province_id = 436
+						province_id = 2235
+						province_id = 2236
+						province_id = 2250
+						province_id = 2221
+						area = lower_yik_area
+						area = nogai_area
+					}
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = greco_bactrian
+		}
+		
+		#Persia
+		if = {
+			limit = {
+				AND = {
+					OR = {
+						region = persia_region
+						area = transcaspia_area
+						province_id = 436
+						province_id = 2235
+						province_id = 2236
+						province_id = 2250
+						province_id = 2221
+					}
+					NOT = {
+						province_id = 415
+						province_id = 411
+						province_id = 2209
+						province_id = 412
+					}
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = greco_persian
+		}
+		
+		#Babylonian
+		if = {
+			limit = {
+				OR = {
+					province_id = 415
+					province_id = 411
+					province_id = 412
+					province_id = 2209
+					area = basra_area
+					area = iraq_arabi_area
+					area = al_jazira_area
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = greco_babylonian
+		}
+		
+		#Semitic
+		if = {
+			limit = {
+				OR = {
+					province_id = 1855
+					province_id = 378
+					province_id = 418 #Diyarkabir
+					province_id = 407 # Ar Raqqa
+					province_id = 382 # Damascus
+					province_id = 381 # Ajlun
+					province_id = 380 # Al Karak
+					province_id = 405 # Palmyra
+					province_id = 2314
+					province_id = 364
+					province_id = 379
+					province_id = 1854
+					province_id = 377
+					province_id = 1849
+					province_id = 2313
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = greco_semitic
+		}
+		
+		#Egyptian
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						region = egypt_region
+						NOT = {area = cyrenaica_area}
+					}
+				}	
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = greco_egyptian
+		}
+		
+		#Capadocian
+		if = {
+			limit = {
+				OR = {
+					area = karaman_area
+					area = dulkadir_area
+					province_id = 327
+					province_id = 2302
+					province_id = 2298
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = cappadocian
+		}
+		
+		#Pontic
+		if = {
+			limit = {
+				OR = {
+					area = kastamonu_area
+					area = rum_area
+					area = erzurum_area
+					area = north_kurdistan_area
+					province_id = 326
+					AND = {
+						region = caucasia_region
+						NOT = {
+							area = circassia_area
+							area = dagestan_area
+							province_id = 425
+						}
+					}
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = old_pontic_greek
+		}
+		
+		#Cimmerian
+		if = {
+			limit = {
+				OR = {
+					region = crimea_region
+					area = circassia_area
+					area = dagestan_area
+					province_id = 425
+					area = lower_yik_area
+					area = nogai_area
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = cimmerian_greek
+		}
+		
+		#Kyreaikian
+		if = {
+			limit = {
+				OR = {
+					region = maghreb_region
+					area = cyrenaica_area
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = kyrenaikian
+		}
+		
+		#Italiote
+		if = {
+			limit = {
+				region = italy_region
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = italiote
+		}
+		
+		#Massaliote
+		if = {
+			limit = {
+				OR = {
+					region = france_region
+					region = iberia_region
+				}
+				owner = { culture_group = old_greek_group }
+			}
+			change_culture = massaliote
+		}
+	}
+	option = {
+		name = "DCC_DisapproveAcceptedSpread"
+		ai_chance = {
+			factor = 1 # 1/(99+1)=1% chance
+			modifier = {
+				factor = 0 # 0%
+				not = {
+					unrest = 0
+				}
+			}
+			modifier = {
+				factor = 99 # 1*99/(99+1*99)=50%
+				unrest = 2
+			}
+			modifier = {
+				factor = 0.5
+				has_idea = cultural_ties
+			}
+		}
+		add_scaled_local_dip_power = 3.5
+		add_nationalism = 5
+		add_local_autonomy = 10
+		add_province_modifier = {
+			name = "DCC_encourage_own_culture"
+			duration = 3650 # 10 years
+		}
+	}
+}

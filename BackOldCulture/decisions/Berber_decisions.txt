@@ -1,0 +1,452 @@
+country_decisions = {
+	
+	culture_independance = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			is_playing_custom_nation = no
+			OR = {
+				primary_culture = berber
+				tag = FZA
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+				}
+			}
+			NOT{
+				OR {
+					accepted_culture = algerian
+					accepted_culture = tunisian
+					accepted_culture = moroccan
+				}
+			}
+			num_of_cities = 6
+			NOT = { has_country_flag = culture_independance }
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			adm_power = 200
+			dip_power = 200
+		}
+		effect = {
+			if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							area = algiers_area
+							area = kabylia_area
+							area = hautes_plaines_area
+							area = tunisia_area
+							area = djerba_area
+							province_id = 351 
+							province_id = 2458
+						}
+					}
+				}
+				change_primary_culture = numidian
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							area = northern_morocco_area
+							area = southern_morocco_area
+							area = western_morocco_area
+							area = marrekesh_area
+							area = sus_area
+							area = tafilalt_area
+						}
+					}
+				}
+				change_primary_culture = mauretanian
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							area = north_saharan_area
+							province_id = 350
+						}
+					}
+				}
+				change_primary_culture = getuli
+			}
+			if = {
+				limit = {
+					tag = FZA
+				}
+				change_primary_culture = lybian
+			}
+			add_dip_power = -200
+			add_adm_power = -200
+			set_country_flag = culture_independance
+		}
+	}
+	
+	form_Numidia = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = BNU }
+			NOT = { tag = BNU}
+			primary_culture = numidian
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 340 # Cirta ou constantine
+			owns_core_province = 351 # Thamugadi ou Aures
+			owns_core_province = 1882 # Bulla ou Annaba
+			owns_core_province = 336 # Tlemcen
+			owns_core_province = 338 # Alger
+			owns_core_province = 339 # Kabylia
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			algiers_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BNU
+			}
+			kabylia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BNU
+			}
+			hautes_plaines_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BNU
+			}
+			tunisia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BNU
+			}
+			djerba_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BNU
+			}
+			351 = {
+				add_permanent_claim = BNU
+			}
+			2458 = {
+				add_permanent_claim = BNU
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = BNU
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_Lybia = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = LYB }
+			NOT = { tag = LYB}
+			primary_culture = lybian
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			num_of_cities = 5
+			owns_core_province = 354 # Tripoli
+			owns_core_province = 356 # Benghazi
+			owns_core_province = 357 # Cyrene ou Darnah
+			owns_core_province = 2448 # Fezzan
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			cyrenaica_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LYB
+			}
+			fezzan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LYB
+			}
+			tripolitania_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = LYB
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = LYB
+			set_capital = 357
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_Mauretania = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = MAU }
+			NOT = { tag = MAU}
+			primary_culture = mauretanian
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			num_of_cities = 5
+			owns_core_province = 335 # Melilla
+			owns_core_province = 2467 # Meknes
+			owns_core_province = 342 # Banasa ou Gharb
+			owns_core_province = 2468 # Tadla
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			northern_morocco_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MAU
+			}
+			southern_morocco_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MAU
+			}
+			western_morocco_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MAU
+			}
+			marrekesh_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MAU
+			}
+			sus_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MAU
+			}
+			tafilalt_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MAU
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = MAU
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_Getulia = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = GET }
+			NOT = { tag = GET}
+			primary_culture = getuli
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			num_of_cities = 5
+			owns_core_province = 2457 # Mzab
+			owns_core_province = 2456 # Touggourt
+			owns_core_province = 352 # Gafsa
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			north_saharan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GET
+			}
+			350 = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GET
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = GET
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

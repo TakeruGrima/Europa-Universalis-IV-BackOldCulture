@@ -1,0 +1,924 @@
+country_decisions = {
+
+#########################################################
+# Change dynasty to Achaemenid
+#########################################################
+change_ruler_achaemenid = {
+
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+				OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+					culture_group = achaemenid
+					culture_group = iranian
+				 }
+			religion = zoroastrian
+			NOT = { dynasty = "Achaemenid" }
+			NOT = { dynasty = "Arsacid" }
+			NOT = { dynasty = "Sasanid" }
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			add_dip_power = 50
+			add_prestige = 10
+			set_dynasty = "Achaemenid"
+		}
+		ai_will_do = {
+			factor = 1
+			}
+		ai_importance = 250
+		}
+#########################################################
+# Change dynasty to Arsacid
+#########################################################
+change_ruler_arsacid = {
+
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+				OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+					culture_group = achaemenid
+					culture_group = iranian
+				 }
+			religion = zoroastrian
+			NOT = { dynasty = "Achaemenid" }
+			NOT = { dynasty = "Arsacid" }
+			NOT = { dynasty = "Sasanid" }
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			add_dip_power = 50
+			add_prestige = 10
+			set_dynasty = "Arsacid"
+		}
+		ai_will_do = {
+			factor = 1
+			}
+		ai_importance = 250
+		}	
+#########################################################
+# Change dynasty to Sasanid
+#########################################################
+change_ruler_sasanid = {
+
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			is_colonial_nation = no
+				OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+					culture_group = achaemenid
+					culture_group = iranian
+				 }
+			religion = zoroastrian
+			NOT = { dynasty = "Achaemenid" }
+			NOT = { dynasty = "Arsacid" }
+			NOT = { dynasty = "Sasanid" }
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			add_dip_power = 50
+			add_prestige = 10
+			set_dynasty = "Sasanid"
+		}
+		ai_will_do = {
+			factor = 1
+			}
+		ai_importance = 250
+		}
+#########################################################
+# Form the Khshassa
+#########################################################
+form_khshassa = {
+
+		major = yes
+		potential = {
+				normal_or_historical_nations = yes
+				dynasty = "Achaemenid"
+				OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				ai = no
+				NOT = { exists = KHS }
+			}
+				NOT = { tag = GRE }
+				NOT = { tag = KHS }
+				NOT = { tag = ERA }
+				NOT = { tag = PRS }
+				NOT = { tag = MUG }
+				NOT = { tag = TIM }
+				NOT = { tag = ARB }
+				NOT = { tag = HLR }
+				NOT = { tag = ROM }
+				NOT = { tag = PAP }
+				NOT = { tag = TUR }
+				NOT = { tag = BYZ }
+			OR {
+				culture_group = iranian
+				culture_group = achaemenid
+			   }
+				is_colonial_nation = no
+				OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		 }
+		allow = {
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			is_tribal = no
+			NOT = { exists = KHS }
+			owns_core_province = 414
+			owns_core_province = 413
+			owns_core_province = 2218
+			owns_core_province = 4171
+			num_of_cities = 20
+		}
+		effect = {
+			change_tag = KHS
+			change_primary_culture = oldpersian
+			add_prestige = 25
+			swap_free_idea_group = yes
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = { limit = {
+				NOT = { religion = zoroastrian }
+						   }
+				change_religion = zoroastrian
+				add_country_modifier 	{
+				name = "missionary_zeal"
+				duration = 7300
+										}
+			}
+			persia_region = {
+				add_permanent_claim = KHS
+			}
+			khorasan_region = {
+				add_permanent_claim = KHS
+			}
+			transcaspia_area = {
+				add_permanent_claim = KHS
+			}
+			khiva_area = {
+				add_permanent_claim = KHS
+			}
+			merv_area = {
+				add_permanent_claim = KHS
+			}
+			ferghana_area = {
+				add_permanent_claim = KHS
+			}
+			transoxiana_area = {
+				add_permanent_claim = KHS
+			}
+			412 = {
+				add_permanent_claim = KHS
+			}
+			424 = {
+				add_permanent_claim = KHS
+			}
+			2202 = {
+				add_permanent_claim = KHS
+			}
+			420 = {
+				add_permanent_claim = KHS
+			}
+			421 = {
+				add_permanent_claim = KHS
+			}
+			2308 = {
+				add_permanent_claim = KHS
+			}
+			418 = {
+				add_permanent_claim = KHS
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+#########################################################
+# Form Parthava
+#########################################################
+form_parthava = {
+
+		major = yes
+		potential = {
+				normal_or_historical_nations = yes
+				dynasty = "Arsacid"
+				OR = {
+				ai = no
+				is_playing_custom_nation = no
+					 }
+			OR = {
+				ai = no
+				NOT = { exists = PRS }
+			}
+				NOT = { tag = GRE }
+				NOT = { tag = KHS }
+				NOT = { tag = ERA }
+				NOT = { tag = PRS }
+				NOT = { tag = MUG }
+				NOT = { tag = TIM }
+				NOT = { tag = ARB }
+				NOT = { tag = HLR }
+				NOT = { tag = ROM }
+				NOT = { tag = PAP }
+				NOT = { tag = TUR }
+				NOT = { tag = BYZ }
+			OR {
+				culture_group = iranian
+				culture_group = achaemenid
+			   }
+				is_colonial_nation = no
+				OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		 }
+		allow = {
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			is_tribal = no
+			NOT = { exists = PRS }
+			owns_core_province = 410
+			owns_core_province = 414
+			owns_core_province = 429
+			num_of_cities = 20
+		}
+		effect = {
+			change_tag = PRS
+			change_primary_culture = oldparthian
+			add_prestige = 25
+			swap_free_idea_group = yes
+			410 = { change_province_name = Ctesiphon rename_capital = Ctesiphon }
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = { limit = {
+				NOT = { religion = zoroastrian }
+						   }
+				change_religion = zoroastrian
+				add_country_modifier 	{
+				name = "missionary_zeal"
+				duration = 7300
+										}
+			}
+			persia_region = {
+				add_permanent_claim = PRS
+			}
+			khorasan_region = {
+				add_permanent_claim = PRS
+			}
+			transcaspia_area = {
+				add_permanent_claim = PRS
+			}
+			khiva_area = {
+				add_permanent_claim = PRS
+			}
+			merv_area = {
+				add_permanent_claim = PRS
+			}
+			ferghana_area = {
+				add_permanent_claim = PRS
+			}
+			transoxiana_area = {
+				add_permanent_claim = PRS
+			}
+			412 = {
+				add_permanent_claim = PRS
+			}
+			424 = {
+				add_permanent_claim = PRS
+			}
+			2202 = {
+				add_permanent_claim = PRS
+			}
+			420 = {
+				add_permanent_claim = PRS
+			}
+			421 = {
+				add_permanent_claim = PRS
+			}
+			2308 = {
+				add_permanent_claim = PRS
+			}
+			418 = {
+				add_permanent_claim = PRS
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+#########################################################
+# Form the Eranshahr
+#########################################################
+form_eranshahr = {
+
+		major = yes
+		potential = {
+				normal_or_historical_nations = yes
+				dynasty = "Sasanid"
+				OR = {
+				ai = no
+				is_playing_custom_nation = no
+					 }
+			OR = {
+				ai = no
+				NOT = { exists = ERA }
+			}
+				NOT = { tag = GRE }
+				NOT = { tag = KHS }
+				NOT = { tag = ERA }
+				NOT = { tag = PRS }
+				NOT = { tag = MUG }
+				NOT = { tag = TIM }
+				NOT = { tag = ARB }
+				NOT = { tag = HLR }
+				NOT = { tag = ROM }
+				NOT = { tag = PAP }
+				NOT = { tag = TUR }
+				NOT = { tag = BYZ }
+			OR {
+				culture_group = iranian
+				culture_group = achaemenid
+			   }
+				is_colonial_nation = no
+				OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		 }
+		allow = {
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			is_tribal = no
+			NOT = { exists = ERA }
+			owns_core_province = 410
+			owns_core_province = 2218
+			num_of_cities = 20
+		}
+		effect = {
+			change_tag = ERA
+			change_primary_culture = oldpersian
+			add_prestige = 25
+			swap_free_idea_group = yes
+			410 = { change_province_name = Ctesiphon rename_capital = Ctesiphon }
+			2218 = { change_province_name = Istakhr rename_capital = Istakhr }
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = { limit = {
+				NOT = { religion = zoroastrian }
+						   }
+				change_religion = zoroastrian
+				add_country_modifier 	{
+				name = "missionary_zeal"
+				duration = 7300
+										}
+			}
+			persia_region = {
+				add_permanent_claim = ERA
+			}
+			khorasan_region = {
+				add_permanent_claim = ERA
+			}
+			transcaspia_area = {
+				add_permanent_claim = ERA
+			}
+			khiva_area = {
+				add_permanent_claim = ERA
+			}
+			merv_area = {
+				add_permanent_claim = ERA
+			}
+			ferghana_area = {
+				add_permanent_claim = ERA
+			}
+			transoxiana_area = {
+				add_permanent_claim = ERA
+			}
+			412 = {
+				add_permanent_claim = ERA
+			}
+			424 = {
+				add_permanent_claim = ERA
+			}
+			2202 = {
+				add_permanent_claim = ERA
+			}
+			420 = {
+				add_permanent_claim = ERA
+			}
+			421 = {
+				add_permanent_claim = ERA
+			}
+			2308 = {
+				add_permanent_claim = ERA
+			}
+			418 = {
+				add_permanent_claim = ERA
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}	
+#########################################################
+# Switch to Zoroastrian (Iranian)
+#########################################################
+adopt_zoroastrian_iranian = {
+
+		major = yes
+		potential = {
+				culture_group = iranian
+				NOT = { religion = zoroastrian }
+			     }
+		allow = {
+				is_at_war = no
+				stability = 3
+		}
+		effect = {
+			change_religion = zoroastrian
+			add_prestige = 25
+			add_country_modifier {
+				name = "missionary_zeal"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+	
+#########################################################
+# Form Bactria
+#########################################################
+form_bactria = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR {
+					culture_group = achaemenid
+					culture_group = iranian
+					   }
+					owns_core_province = 450
+					OR = {
+					capital_scope = { culture = bactrian}
+					primary_culture = bactrian
+					   }
+					NOT = { exists = BAC }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+		allow = {
+			is_at_war = no
+			owns_core_province = 450
+			450 = { religion = zoroastrian 
+					culture = bactrian }
+		}
+		effect = {
+			change_tag = BAC
+			change_primary_culture = bactrian
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 450
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+
+#########################################################
+# Form Arachosia
+#########################################################
+form_arachosia = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR {
+					culture_group = achaemenid
+					culture_group = iranian
+					   }
+					owns_core_province = 447
+					OR = {
+					capital_scope = { culture = arachosian}
+					primary_culture = arachosian
+					   }
+					NOT = { exists = ARC }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+		allow = {
+			is_at_war = no
+			owns_core_province = 447
+			447 = { religion = zoroastrian 
+					culture = arachosian }
+		}
+		effect = {
+			change_tag = ARC
+			change_primary_culture = arachosian
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 447
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+
+#########################################################
+# Form Atropatene
+#########################################################
+form_atropatene = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR {
+					culture_group = achaemenid
+					culture_group = iranian
+					   }
+					owns_core_province = 2207
+					OR = {
+					capital_scope = { culture = azari}
+					primary_culture = azari
+					   }
+					NOT = { exists = ATP }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+		allow = {
+			is_at_war = no
+			owns_core_province = 2207
+			2207 = { religion = zoroastrian 
+					culture = azari }
+		}
+		effect = {
+			change_tag = ATP
+			change_primary_culture = azari
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 2207
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+	
+#########################################################
+# Form Pars
+#########################################################
+form_pars = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR {
+					culture_group = achaemenid
+					culture_group = iranian
+					   }
+					owns_core_province = 2218
+					OR = {
+					capital_scope = { culture = oldpersian}
+					primary_culture = oldpersian
+					   }
+					NOT = { exists = PAS }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+		allow = {
+			is_at_war = no
+			owns_core_province = 2218
+			2218 = { religion = zoroastrian 
+					culture = oldpersian }
+		}
+		effect = {
+			change_tag = PAS
+			change_primary_culture = oldpersian
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 2218
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+	
+#########################################################
+# Form Sogdia
+#########################################################
+form_sogdia = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR {
+					culture_group = achaemenid
+					culture_group = iranian
+					   }
+					owns_core_province = 454
+					OR = {
+					capital_scope = { culture = sogdian}
+					primary_culture = sogdian
+					   }
+					NOT = { exists = SOG }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+					
+		allow = {
+			is_at_war = no
+			owns_core_province = 454
+			454 = { religion = zoroastrian 
+					culture = sogdian }
+		}
+		effect = {
+			change_tag = SOG
+			change_primary_culture = sogdian
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 454
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+	
+#########################################################
+# Form Parthia
+#########################################################
+form_parthia = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR {
+					culture_group = achaemenid
+					culture_group = iranian
+					   }
+					owns_core_province = 427
+					OR = {
+					capital_scope = { culture = oldparthian}
+					primary_culture = oldparthian
+					   }
+					NOT = { exists = PRT }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+		allow = {
+			is_at_war = no
+			owns_core_province = 427
+			427 = { religion = zoroastrian 
+					culture = oldparthian }
+		}
+		effect = {
+			change_tag = PRT
+			change_primary_culture = oldparthian
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 427
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+	
+#########################################################
+# Form Media 
+#########################################################
+form_media = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR = {
+						primary_culture = kurdish
+						primary_culture = mede	
+					}
+					NOT = { exists = MDA }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+		allow = {
+			is_at_war = no
+			owns_core_province = 414
+			414 = { religion = zoroastrian 
+				culture = mede }
+		}
+		effect = {
+			change_tag = MDA
+			change_primary_culture = mede
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 414
+			swap_free_idea_group = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+
+#########################################################
+# Form Luristan
+#########################################################
+form_luristan = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR = {
+					culture_group = achaemenid
+					culture_group = iranian
+					   }
+					OR = {
+					capital_scope = { culture = luri}
+					primary_culture = luri
+					   }
+					NOT = { exists = LRS }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+		allow = {
+			is_at_war = no
+			owns_core_province = 2210
+			2210 = { religion = zoroastrian 
+				 culture = luri }
+		}
+		effect = {
+			change_tag = LRS
+			change_primary_culture = luri
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 2210
+			swap_free_idea_group = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+	
+#########################################################
+# Form Makran
+#########################################################
+form_makran = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR = {
+					culture_group = achaemenid
+					culture_group = iranian
+					   }
+					OR = {
+					capital_scope = { culture = gedrosian}
+					primary_culture = gedrosian
+					   }
+					NOT = { exists = MKR }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+		allow = {
+			is_at_war = no
+			owns_core_province = 2231
+			2231 = { religion = zoroastrian 
+				 culture = gedrosian }
+		}
+		effect = {
+			change_tag = MKR
+			change_primary_culture = gedrosian
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 2231
+			swap_free_idea_group = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+	
+#########################################################
+# Form Hyrcania
+#########################################################
+form_hyrcania = {
+
+		major = yes
+		potential = {
+					religion = zoroastrian
+					OR = {
+					culture_group = achaemenid
+					culture_group = iranian
+					   }
+					OR = {
+					capital_scope = { culture = hyrcanian}
+					primary_culture = hyrcanian
+					   }
+					NOT = { exists = HYR }
+					NOT = { tag = KHS }
+					NOT = { tag = ERA }
+					NOT = { tag = PRS }
+					}
+		allow = {
+			is_at_war = no
+			owns_core_province = 426
+			426 = { religion = zoroastrian 
+				culture = hyrcanian }
+		}
+		effect = {
+			change_tag = HYR
+			change_primary_culture = hyrcanian
+			add_stability = 1
+			add_prestige = 25
+			set_capital = 426
+			swap_free_idea_group = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+
+}

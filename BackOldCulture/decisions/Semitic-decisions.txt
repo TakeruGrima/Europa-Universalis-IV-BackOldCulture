@@ -1,0 +1,514 @@
+country_decisions = {
+	
+	old_strat_sea_people = {
+		major = yes
+		potential = {
+			ai = no
+			OR = {
+				tag = CYP
+				tag = VEN
+				tag = GEN
+				AND = {
+					primary_culture = al_suryah_arabic
+					NOT = { religion_group = muslim }
+				}
+			}
+			NOT = { primary_culture = greek }
+			NOT = { has_country_flag = old_flag_sea_people }
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+		}
+		effect = {
+			set_country_flag = old_flag_sea_people
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+	form_Phoenicia = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = PHO }
+			NOT = { tag = PHO }
+			NOT = { tag = SRA }
+			NOT = { tag = OSR }
+			NOT = { tag = CAE }
+			
+			OR = {
+				has_country_flag = old_flag_sea_people
+				AND = {
+					primary_culture = al_suryah_arabic
+					NOT = { religion_group = muslim }
+				}
+				primary_culture = phoenician
+			}
+			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 1855
+			owns_core_province = 378
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = PHO
+			change_primary_culture = phoenician
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_Osroene = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = OSR }
+			NOT = { tag = SRA }
+			NOT = { tag = OSR }
+			NOT = { tag = CAE }
+			NOT = {culture_group = akkadian_group}
+			NOT = { religion_group= muslim }
+			
+			OR = {
+				primary_culture = al_suryah_arabic
+				NOT = { culture_group = turko_semitic}
+				primary_culture = aramean
+			}
+			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			
+			any_owned_province = {
+				culture = aramean
+			}
+			owns_core_province = 418
+			owns_core_province = 407
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			418 = {
+				is_capital = yes
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			418 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			add_prestige = 25
+			change_tag = OSR
+			change_primary_culture = aramean
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_EblaKingdom = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = EBL }
+			NOT = { tag = EBL }
+			NOT = { tag = SRA }
+			NOT = { tag = OSR }
+			NOT = { tag = CAE }
+			NOT = {culture_group = akkadian_group}
+			NOT = { religion_group= muslim }
+			
+			OR = {
+				primary_culture = al_suryah_arabic
+				NOT = { culture_group = turko_semitic}
+				primary_culture = eblaite
+			}
+			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			
+			any_owned_province = {
+				culture = eblaite
+			}
+			owns_core_province = 377
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			377 = {
+				is_capital = yes
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = EBL
+			change_primary_culture = eblaite
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_Palmyra = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = PLM }
+			NOT = { tag = PLM }
+			NOT = { tag = EBL }
+			NOT = { tag = SRA }
+			NOT = { tag = OSR }
+			NOT = { tag = CAE }
+			NOT = {culture_group = akkadian_group}
+			NOT = { religion_group= muslim }
+			
+			OR = {
+				primary_culture = al_suryah_arabic
+				NOT = { culture_group = turko_semitic}
+				primary_culture = palmyrian
+			}
+			
+			any_owned_province = {
+				culture = palmyrian
+			}
+			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 405
+			405	 = {#Palmyra
+				is_capital = yes
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			405 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			add_prestige = 25
+			change_tag = PLM
+			change_primary_culture = palmyrian
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_Israel = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = ISR }
+			NOT = { tag = ISR }
+			NOT = { tag = PLM }
+			NOT = { tag = EBL }
+			NOT = { tag = SRA }
+			NOT = { tag = OSR }
+			NOT = { tag = CAE }
+			NOT = {culture_group = akkadian_group}
+			NOT = { religion_group= muslim }
+			
+			OR = {
+				primary_culture = al_suryah_arabic
+				NOT = { culture_group = turko_semitic}
+				primary_culture = israelites
+			}
+			
+			any_owned_province = {
+				culture = israelites
+			}
+			
+			religion = jewish
+			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 379
+			379	 = {#Jerusalem
+				is_capital = yes
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = ISR
+			change_primary_culture = israelites
+			379 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_the_Aramean = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = SRA }
+			NOT = { tag = SRA }
+			NOT = { tag = PHO }
+			NOT = { tag = CAE }
+			NOT = { tag = PLM }
+			NOT = { tag = ISR }
+			
+			primary_culture = aramean
+			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 418 #Diyarkabir
+			owns_core_province = 407 # Ar Raqqa
+			owns_core_province = 382 # Damascus
+			owns_core_province = 381 # Ajlun
+			owns_core_province = 380 # Al Karak
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = SRA
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_Carthage = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = CAE }
+			NOT = { tag = CAE }
+			NOT = {culture_group = berber_group}
+			NOT = {culture_group = maghrebi}
+			NOT = { religion_group= muslim }
+			
+			OR = {
+				primary_culture = phoenician
+				primary_culture = punic
+			}
+			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 341
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = CAE
+			change_primary_culture = punic
+			CAE = {
+				set_capital = 341
+			}
+			341 = {
+				change_culture = punic
+			}
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

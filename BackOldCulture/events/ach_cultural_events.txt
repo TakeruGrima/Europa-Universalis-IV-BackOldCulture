@@ -1,0 +1,312 @@
+namespace = achculture
+
+#########################################################
+# Persian
+#########################################################
+province_event = {
+
+	id = achculture.1
+	title = achculture.1.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		NOT = {area = luristan_area }
+		religion = zoroastrian
+		OR {
+		culture = persian
+		province_id = 412
+		province_id = 2999
+		   }
+		NOT = { has_province_flag = iranian_culture_conversion }
+		
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = oldpersian
+		add_core = PAS
+		set_province_flag = iranian_culture_conversion
+	}
+}
+
+#########################################################
+# Mede
+#########################################################
+province_event = {
+
+	id = achculture.2
+	title = achculture.2.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		NOT = {area = luristan_area }
+		culture = kurdish
+		religion = zoroastrian
+		NOT = { has_province_flag = iranian_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = mede
+		add_core = MDA
+		set_province_flag = iranian_culture_conversion
+	}
+}
+
+#########################################################
+# Gedrosian
+#########################################################
+province_event = {
+
+	id = achculture.3
+	title = achculture.3.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		NOT = {province_id = 2068}
+		NOT = {province_id = 577}
+		culture = baluchi
+		religion = zoroastrian
+		NOT = { has_province_flag = iranian_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = gedrosian
+		add_core = MKR
+		set_province_flag = iranian_culture_conversion
+	}
+}
+
+#########################################################
+# Bactrian
+#########################################################
+province_event = {
+
+	id = achculture.4
+	title = achculture.4.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		NOT = {province_id = 2229}
+		NOT = {province_id = 447}
+		NOT = {province_id = 448}
+		NOT = {province_id = 449}
+		NOT = {province_id = 2225}
+		culture = afghani
+		religion = zoroastrian
+		NOT = { has_province_flag = iranian_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = bactrian
+		add_core = BAC
+		set_province_flag = iranian_culture_conversion
+	}
+}
+
+#########################################################
+# Hyrcanian
+#########################################################
+province_event = {
+
+	id = achculture.5
+	title = achculture.5.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		culture = mazandarani
+		religion = zoroastrian
+		NOT = { has_province_flag = iranian_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = hyrcanian
+		add_core = HYR
+		set_province_flag = iranian_culture_conversion
+	}
+}
+
+
+#########################################################
+# Parthian
+#########################################################
+province_event = {
+
+	id = achculture.6
+	title = achculture.6.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		NOT = {province_id = 2224}
+		NOT = {province_id = 435}
+		culture = khorasani
+		religion = zoroastrian
+		NOT = { has_province_flag = iranian_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = oldparthian
+		add_core = PRT
+		set_province_flag = iranian_culture_conversion
+	}
+}
+
+#########################################################
+# Azari
+#########################################################
+province_event = {
+
+	id = achculture.7
+	title = achculture.7.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		culture = azerbaijani
+		religion = zoroastrian
+		NOT = { has_province_flag = iranian_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = azari
+		add_core = ATP
+		set_province_flag = iranian_culture_conversion
+	}
+}
+
+#########################################################
+# Sogdian
+#########################################################
+province_event = {
+
+	id = achculture.8
+	title = achculture.8.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		OR {
+			area = merv_area
+			area = ferghana_area
+			area = transoxiana_area
+		   }
+		religion = zoroastrian
+		NOT = { has_province_flag = iranian_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = sogdian
+		add_core = SOG
+		set_province_flag = iranian_culture_conversion
+	}
+}
+
+#########################################################
+# Arachosian
+#########################################################
+province_event = {
+
+	id = achculture.9
+	title = achculture.9.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		OR {
+			province_id = 2229
+			province_id = 447
+			province_id = 577
+			province_id = 448
+			province_id = 2225
+			province_id = 2068
+			province_id = 2224
+			province_id = 435
+			province_id = 449
+		   }
+		religion = zoroastrian
+		NOT = { has_province_flag = iranian_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = arachosian
+		add_core = ARC
+		set_province_flag = iranian_culture_conversion
+	}
+}
+
+#########################################################
+# Luri
+#########################################################
+province_event = {
+
+	id = achculture.12
+	title = achculture.12.t
+	desc = achculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = achaemenid}
+		religion = zoroastrian
+		area = luristan_area
+		NOT = { has_province_flag = iranian_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = achculture.1.a
+		change_culture = luri
+		add_core = LRS
+		set_province_flag = iranian_culture_conversion
+	}
+}

@@ -1,0 +1,249 @@
+country_decisions = {
+
+	form_babylon = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = BAB }
+			NOT = { tag = BAB }
+			NOT = { tag = ASY }
+			OR = {
+				primary_culture = Babylonian
+				primary_culture = al_iraqiya_arabic
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				
+				religion_group = christian
+				religion_group = pagan
+				religion = ashurism
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 409			# Hillah
+			owns_core_province = 410			# Baghdad
+			owns_core_province = 2311			# Samawah
+			owns_core_province = 2312			# Wasit
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			mashriq_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = BAB
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_government = iqta
+			change_tag = BAB
+			BAB = {
+				set_capital = 409
+			}
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_assyria = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = ASY }
+			NOT = { tag = ASY }
+			NOT = { tag = BAB }
+			OR = {
+				primary_culture = assyrian
+				primary_culture = al_iraqiya_arabic
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				religion_group = christian
+				religion_group = pagan
+				religion = ashurism
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 2308			
+			owns_core_province = 2309			
+			owns_core_province = 2310			# Assur
+			owns_core_province = 406
+			owns_core_province = 411
+			owns_core_province = 415
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			mashriq_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ASY
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_government = iqta
+			change_tag = ASY
+			ASY = {
+				set_capital = 2310
+			}
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_elam = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = ELM }
+			NOT = { tag = ELM }
+			OR = {
+				primary_culture = elamite
+				primary_culture = al_iraqiya_arabic
+				owns_core_province = 379
+				2209 = {#Elam
+					is_capital = yes
+					culture = elamite
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				religion_group = christian
+				religion_group = pagan
+				religion = ashurism
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 2209			# Elam
+			owns_core_province = 412			# Khuzestan
+			owns_core_province = 413			# Khorramabad
+			owns_core_province = 2217			# Yasuj
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			farsistan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ELM
+			}
+			persian_gulf_coast = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ELM
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_government = iqta
+			change_tag = ELM
+			ELM = {
+				set_capital = 2209
+			}
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

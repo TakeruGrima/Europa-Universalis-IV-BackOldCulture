@@ -1,0 +1,63 @@
+country_decisions = {
+	
+	form_Magadha = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { exists = BMA }
+			NOT = { tag = BMA }
+			
+			religion = buddhism
+			culture_group = eastern_aryan
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 558 # Patna
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			swap_free_idea_group = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = BMA
+			BMA = {
+				set_capital = 558
+			}
+			if = {
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

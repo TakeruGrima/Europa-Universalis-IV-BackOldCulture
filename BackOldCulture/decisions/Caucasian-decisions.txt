@@ -1,0 +1,67 @@
+country_decisions = {
+
+	form_ArmenianEmpire = {
+			major = yes
+			potential = {
+				normal_or_historical_nations = yes
+				NOT = { exists = EAR}
+				NOT = { tag = EAR }
+				primary_culture = armenian
+				NOT = { religion_group= muslim }
+				
+				is_colonial_nation = no
+				OR = {
+					is_former_colonial_nation = no
+					AND = {
+						is_former_colonial_nation = yes
+						ai = no
+					}
+				}
+				owns_core_province = 2204
+				owns_core_province = 419
+				owns_core_province = 2202
+				owns_core_province = 2205
+				owns_core_province = 2307
+				owns_core_province = 331
+				owns_core_province = 2305
+			}
+			allow = {
+				is_subject = no
+				is_at_war = no
+				num_of_vassals = 2
+			}
+			effect = {
+				if = {
+					limit = {
+						is_part_of_hre = yes
+						is_elector = no
+					}
+					every_owned_province = {
+						limit = {
+							is_part_of_hre = yes
+						}
+						set_in_empire = no
+					}
+				}
+				swap_free_idea_group = yes
+				add_country_modifier = {
+					name = "centralization_modifier"
+					duration = 7300
+				}
+				2306 = {
+					add_base_tax = 2
+					add_base_production = 2
+					add_base_manpower = 2
+				}
+				add_prestige = 25
+				change_tag = EAR
+				set_capital = 2306
+				if = {
+					country_event = { id = ideagroups.1 } #Swap Ideas
+				}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+}

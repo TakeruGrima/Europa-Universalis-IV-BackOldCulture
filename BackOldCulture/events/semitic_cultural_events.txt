@@ -1,0 +1,306 @@
+namespace = semiticculture
+
+#########################################################
+# Phoenician
+#########################################################
+
+province_event = {
+
+	id = semiticculture.1
+	title = semiticculture.1.t
+	desc = semiticculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = semitic}
+		OR{
+			NOT = { religion_group = muslim }
+		}
+		OR {
+			province_id = 1855
+			province_id = 378
+		}
+		NOT = { has_province_flag = semitic_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = semiticculture.1.a
+		change_culture = phoenician
+		add_core = PHO
+		add_nationalism = 20
+		set_province_flag = semitic_culture_conversion
+	}
+}
+
+#########################################################
+# Aramean
+#########################################################
+
+province_event = {
+
+	id = semiticculture.2
+	title = semiticculture.2.t
+	desc = semiticculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = semitic}
+		OR{
+			NOT = { religion_group = muslim }
+		}
+		OR {
+			province_id = 418 #Diyarkabir
+			province_id = 407 # Ar Raqqa
+			province_id = 382 # Damascus
+			province_id = 381 # Ajlun
+			province_id = 380 # Al Karak
+			AND = {
+				405	 = {#Palmyra
+					is_capital = no
+				}
+				OR = {
+					province_id = 405 # Palmyra
+					province_id = 2314
+				}
+			}
+		}
+		NOT = { has_province_flag = semitic_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = semiticculture.1.a
+		change_culture = aramean
+		add_nationalism = 20
+		set_province_flag = semitic_culture_conversion
+	}
+}
+
+#########################################################
+# Palmyrene
+#########################################################
+
+province_event = {
+
+	id = semiticculture.3
+	title = semiticculture.3.t
+	desc = semiticculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = semitic}
+		OR{
+			NOT = { religion_group = muslim }
+		}
+		OR {
+			AND = {
+				405	 = {#Palmyra
+					is_capital = yes
+				}
+				OR = {
+					province_id = 405 # Palmyra
+					province_id = 2314
+				}
+			}
+		}
+		NOT = { has_province_flag = semitic_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = semiticculture.1.a
+		change_culture = palmyrian
+		add_nationalism = 20
+		set_province_flag = semitic_culture_conversion
+	}
+}
+
+#########################################################
+# Israelites
+#########################################################
+
+province_event = {
+
+	id = semiticculture.4
+	title = semiticculture.4.t
+	desc = semiticculture.4.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture = israelites}
+		OR{
+			religion = jewish
+			religion_group = christian
+		}
+		OR {
+			province_id = 379
+			province_id = 1854
+		}
+		NOT = { has_province_flag = semitic_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = semiticculture.1.a
+		change_culture = israelites
+		add_nationalism = 20
+		set_province_flag = semitic_culture_conversion
+	}
+}
+
+
+#########################################################
+# eblaite
+#########################################################
+
+province_event = {
+
+	id = semiticculture.5
+	title = semiticculture.5.t
+	desc = semiticculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture = eblaite}
+		OR{
+			NOT = { religion_group = muslim }
+		}
+		OR {
+			province_id = 377
+			province_id = 1849
+			province_id = 2313
+		}
+		NOT = { has_province_flag = semitic_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = semiticculture.1.a
+		change_culture = eblaite
+		add_nationalism = 20
+		set_province_flag = semitic_culture_conversion
+	}
+}
+
+#########################################################
+# Punic
+#########################################################
+
+province_event = {
+
+	id = semiticculture.6
+	title = semiticculture.6.t
+	desc = semiticculture.6.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture = punic}
+		NOT = { religion_group = muslim }
+		region = maghreb_region
+		
+		owner = { 
+				NOT = { 
+					culture_group = berber_group 
+					tag = TUN
+				}
+			}
+		NOT = { has_province_flag = semitic_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = semiticculture.1.a
+		change_culture = punic
+		add_nationalism = 20
+		set_province_flag = semitic_culture_conversion
+	}
+}
+
+#########################################################
+#  Semitic to Syrian
+#########################################################
+
+province_event = {
+
+	id = semiticculture.7
+	title = semiticculture.7.t
+	desc = semiticculture.7.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture_group = semitic
+		OR{
+			religion_group = muslim
+		}
+		OR {
+			province_id = 1855
+			province_id = 378
+			province_id = 418 #Diyarkabir
+			province_id = 407 # Ar Raqqa
+			province_id = 382 # Damascus
+			province_id = 381 # Ajlun
+			province_id = 380 # Al Karak
+			province_id = 405 # Palmyra
+			province_id = 2314
+			province_id = 364
+			province_id = 379
+			province_id = 1854
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = semiticculture.1.a
+		change_culture = al_suryah_arabic
+		clr_province_flag = semitic_culture_conversion
+	}
+}
+
+#########################################################
+#  Punic to Tunisian
+#########################################################
+
+province_event = {
+
+	id = semiticculture.8
+	title = semiticculture.8.t
+	desc = semiticculture.8.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture = punic
+		religion_group = muslim
+		
+		OR = {
+			area = cyrenaica_area
+			area = fezzan_area
+			area = tripolitania_area
+			area = tunisia_area
+			area = djerba_area
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = semiticculture.1.a
+		change_culture = tunisian
+		clr_province_flag = semitic_culture_conversion
+	}
+}

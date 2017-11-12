@@ -1,0 +1,161 @@
+namespace = oldReligion
+
+#########################################################
+# Spread of Zoroastrianism
+#########################################################
+province_event = {
+
+	id = oldReligion.1
+	title = oldReligion.1.t
+	desc = oldReligion.1.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		owner = {religion = zoroastrian }
+		OR {
+		religion = sunni
+		religion = shiite
+		religion = ibadi
+	           }
+		OR {	culture_group = iranian
+			culture_group = achaemenid
+			province_id = 412
+			area = merv_area
+			area = ferghana_area
+			area = transoxiana_area
+			area = khiva_area
+			area = transcaspia_area
+		   }
+		}
+	mean_time_to_happen = {
+		months = 120
+		}
+	option = {
+		name = oldReligion.1.a
+		change_religion = zoroastrian
+		add_province_modifier = {
+			name = "religious_zeal_at_conv"
+			duration = 3650
+		}
+	}
+}
+
+#########################################################
+# Spread of Kemet
+#########################################################
+province_event = {
+
+	id = oldReligion.2
+	title = oldReligion.2.t
+	desc = oldReligion.2.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		owner = {religion = kemet }
+		OR={
+			religion = sunni
+			religion = shiite
+			religion = ibadi
+	    }
+		region = egypt_region	
+	}
+	mean_time_to_happen = {
+		months = 120
+	}
+	option = {
+		name = oldReligion.2.a
+		change_religion = kemet
+		add_province_modifier = {
+			name = "religious_zeal_at_conv"
+			duration = 3650
+		}
+	}
+}
+
+#########################################################
+# Spread of Ashurism
+#########################################################
+province_event = {
+
+	id = oldReligion.3
+	title = oldReligion.3.t
+	desc = oldReligion.3.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		owner = {religion = ashurism }
+		OR={
+			religion = sunni
+			religion = shiite
+			religion = ibadi
+	    }
+		OR = {
+			region = mashriq_region
+			province_id = 411
+			province_id = 415
+			province_id=2209
+			province_id=412
+			province_id=430
+			province_id=2218
+			province_id=2217
+			province_id=413
+		}
+	}
+	mean_time_to_happen = {
+		months = 120
+	}
+	option = {
+		name = oldReligion.3.a
+		change_religion = ashurism
+		add_province_modifier = {
+			name = "religious_zeal_at_conv"
+			duration = 3650
+		}
+	}
+}
+
+#########################################################
+# Spread of Nestorian
+#########################################################
+province_event = {
+
+	id = oldReligion.4
+	title = oldReligion.4.t
+	desc = oldReligion.4.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		owner = {religion = nestorian }
+		OR={
+			religion = sunni
+			religion = shiite
+			religion = ibadi
+			AND = {
+				NOT = {religion_group = christian}
+				religion = nestorian
+			}
+	    }
+		OR = {
+			region = mashriq_region
+			province_id = 411
+			province_id = 415
+			province_id=2209
+			province_id=412
+			province_id=430
+			province_id=2218
+			province_id=2217
+			province_id=413
+		}
+	}
+	mean_time_to_happen = {
+		months = 120
+	}
+	option = {
+		name = oldReligion.4.a
+		change_religion = nestorian
+		add_province_modifier = {
+			name = "religious_zeal_at_conv"
+			duration = 3650
+		}
+	}
+}

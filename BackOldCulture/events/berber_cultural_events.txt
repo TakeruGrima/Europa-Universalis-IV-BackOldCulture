@@ -1,0 +1,208 @@
+namespace = berberculture
+
+#########################################################
+#  Numidian
+#########################################################
+province_event = {
+
+	id = berberculture.1
+	title = berberculture.1.t
+	desc = berberculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture = berber
+		OR = {
+			owner = { 
+				culture_group = berber_group 
+			}
+			religion_group = pagan
+		}
+		is_core = ROOT
+		OR = {
+			area = algiers_area
+			area = kabylia_area
+			area = hautes_plaines_area
+			area = tunisia_area
+			area = djerba_area
+			province_id = 351 
+			province_id = 2458
+		}
+		NOT = { has_province_flag = berber_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = berberculture.1.a
+		change_culture = numidian
+		set_province_flag = berber_culture_conversion
+	}
+}
+
+#########################################################
+#  Mauretanian
+#########################################################
+province_event = {
+
+	id = berberculture.2
+	title = berberculture.2.t
+	desc = berberculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture = berber
+		OR = {
+			owner = { 
+				culture_group = berber_group 
+			}
+			religion_group = pagan
+		}
+		is_core = ROOT
+		OR = {
+			area = northern_morocco_area
+			area = southern_morocco_area
+			area = western_morocco_area
+			area = marrekesh_area
+			area = sus_area
+			area = tafilalt_area
+		}
+		NOT = { has_province_flag = berber_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = berberculture.1.a
+		change_culture = mauretanian
+		set_province_flag = berber_culture_conversion
+	}
+}
+
+#########################################################
+#  Getuli
+#########################################################
+province_event = {
+
+	id = berberculture.3
+	title = berberculture.3.t
+	desc = berberculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		culture = berber
+		OR = {
+			owner = { 
+				culture_group = berber_group  
+			}
+			religion_group = pagan
+		}
+		is_core = ROOT
+		OR = {
+			area = north_saharan_area
+			province_id = 350
+		}
+		NOT = { has_province_flag = berber_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = berberculture.1.a
+		change_culture = getuli
+		set_province_flag = berber_culture_conversion
+	}
+}
+
+#########################################################
+#  Lybian
+#########################################################
+province_event = {
+
+	id = berberculture.4
+	title = berberculture.4.t
+	desc = berberculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		OR = {
+			owner = { 
+				culture_group = berber_group 
+			}
+			religion_group = pagan
+		}
+		is_core = ROOT
+		OR = {
+			area = cyrenaica_area
+			area = fezzan_area
+			area = tripolitania_area
+		}
+		NOT = { has_province_flag = berber_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = berberculture.1.a
+		change_culture = lybian
+		set_province_flag = berber_culture_conversion
+	}
+}
+
+#########################################################
+#  Berber return
+#########################################################
+province_event = {
+
+	id = berberculture.5
+	title = berberculture.5.t
+	desc = berberculture.5.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = { culture_group = maghrebi}
+		OR = {
+			owner = { 
+				culture_group = maghrebi
+			}
+		}
+		religion_group = muslim
+		is_core = ROOT
+		NOT = { has_province_flag = berber_return }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = berberculture.5.a
+		
+		if = {
+			limit = {
+				OR = {
+					area = cyrenaica_area
+					area = fezzan_area
+					area = tripolitania_area
+				}
+			}
+			change_culture = tunisian
+		}
+		if = {
+			limit = {
+				NOT{
+					OR = {
+					area = cyrenaica_area
+					area = fezzan_area
+					area = tripolitania_area
+					}
+				}
+			}
+			change_culture = berber
+		}
+		set_province_flag = berber_return
+	}
+}

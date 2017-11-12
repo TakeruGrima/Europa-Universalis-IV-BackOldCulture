@@ -1,0 +1,89 @@
+namespace = steppeculture
+
+#########################################################
+# Khwarezmian
+#########################################################
+province_event = {
+
+	id =steppeculture.1
+	title =steppeculture.1.t
+	desc =steppeculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = steppe_people}
+		area = khiva_area
+		religion = zoroastrian
+		NOT = { has_province_flag = steppe_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name =steppeculture.1.a
+		change_culture = khwarezmian
+		add_core = KWZ
+		set_province_flag = steppe_culture_conversion
+	}
+}
+
+
+#########################################################
+# Dahaean
+#########################################################
+province_event = {
+
+	id = steppeculture.2
+	title = steppeculture.2.t
+	desc =steppeculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = steppe_people}
+		area = transcaspia_area
+		religion = zoroastrian
+		NOT = { has_province_flag = steppe_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name =steppeculture.1.a
+		change_culture = dahaean
+		add_core = DHS
+		set_province_flag = steppe_culture_conversion
+	}
+}
+
+#########################################################
+# Massagetaen
+#########################################################
+province_event = {
+
+	id = steppeculture.3
+	title = steppeculture.3.t
+	desc =steppeculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = steppe_people}
+		OR = {
+			area = kyzylkum_area
+			area = arys_area
+		}
+		religion = zoroastrian
+		NOT = { has_province_flag = steppe_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name =steppeculture.1.a
+		change_culture = massagetean
+		add_core = MAS
+		set_province_flag = steppe_culture_conversion
+	}
+}

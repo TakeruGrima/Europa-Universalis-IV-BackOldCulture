@@ -1,0 +1,89 @@
+country_decisions = {
+
+#########################################################
+# Switch to egyptian (Nilotic)
+#########################################################
+	adopt_kemet = {
+		major = yes
+		potential = {
+			OR = {
+				culture = kemetic
+				culture = wasetic
+				tag = MEO
+			}
+			NOT = { religion = kemet }
+		}
+		allow = {
+				is_at_war = no
+				stability = 3
+		}
+		effect = {
+			change_religion = kemet
+			add_prestige = 25
+			add_country_modifier {
+				name = "missionary_zeal"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+	
+#########################################################
+# Switch to nestorian (Akkadian)
+#########################################################
+	adopt_nestorian = {
+
+		major = yes
+		potential = {
+				culture_group = akkadian_group
+				NOT = { religion = nestorian }
+		}
+		allow = {
+				is_at_war = no
+				stability = 3
+		}
+		effect = {
+			change_religion = nestorian
+			add_prestige = 25
+			add_country_modifier {
+				name = "missionary_zeal"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+	
+#########################################################
+# Switch to ashurism (Akkadian)
+#########################################################
+	adopt_ashurism = {
+
+		major = yes
+		potential = {
+			culture_group = akkadian_group
+			NOT = { religion = nestorian }
+		}
+		allow = {
+				is_at_war = no
+				stability = 3
+		}
+		effect = {
+			change_religion = ashurism
+			add_prestige = 25
+			add_country_modifier {
+				name = "missionary_zeal"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 250
+	}
+}

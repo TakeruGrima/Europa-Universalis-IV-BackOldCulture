@@ -1,0 +1,142 @@
+country_decisions = {
+
+	Reclaim_the_babylone_heritage = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { has_global_flag = babylone_heritage }
+			OR = {
+				ai = no
+				num_of_cities = 3
+			}
+			OR = {
+				ai = no
+				NOT = { exists = BAB }
+			}
+			NOT = { culture_group = turko_semitic }
+			NOT = { culture = Babylonian }
+			NOT = { tag = BAB }
+			NOT = { tag = ASY }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				religion_group = christian
+				religion_group = pagan
+			}
+			owns = 409			# Babylone(Hillah)
+			owns = 410          # Bagdad
+			
+			any_owned_province = {
+				region = mashriq_region
+				is_core = ROOT
+			}
+		}
+		allow
+		{
+			stability = 2
+			is_at_war = no
+		}
+		effect{
+			409 = { change_province_name = Babylon rename_capital = Babylon }
+			410 = { change_province_name = Eshnunna rename_capital = Eshnunna }
+			set_capital = 409
+			409 = {
+					add_base_tax = 2
+					add_base_production = 2
+					add_base_manpower = 2
+					change_culture = Babylonian
+					change_religion = ROOT
+					add_core = ROOT
+					set_province_flag = akkadian_culture_conversion
+			}
+			410 = {
+				add_base_tax = -2
+				add_base_production = -2
+				add_base_manpower = -2
+			}
+			set_global_flag = babylone_heritage
+			change_primary_culture = Babylonian
+			add_stability = -2
+		}
+	}
+
+	Reclaim_the_assyrian_heritage = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { has_global_flag = assyrian_heritage }
+			OR = {
+				ai = no
+				num_of_cities = 3
+			}
+			OR = {
+				ai = no
+				NOT = { exists = ASY }
+			}
+			NOT = { culture_group = turko_semitic }
+			NOT = { culture = assyrian }
+			NOT = { tag = BAB }
+			NOT = { tag = ASY }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				religion_group = christian
+				religion_group = pagan
+			}
+			owns = 2310			# Assur
+			owns = 410          # Bagdad
+			
+			any_owned_province = {
+				region = mashriq_region
+				is_core = ROOT
+			}
+		}
+		allow
+		{
+			stability = 2
+			is_at_war = no
+		}
+		effect{
+			2310 = { change_province_name = Assur rename_capital = Assur }
+			410 = { change_province_name = Eshnunna rename_capital = Eshnunna }
+			set_capital = 409
+			2310 = {
+					add_base_tax = 2
+					add_base_production = 2
+					add_base_manpower = 2
+					change_culture = assyrian
+					change_religion = ROOT
+					add_core = ROOT
+					set_province_flag = akkadian_culture_conversion
+			}
+			410 = {
+				add_base_tax = -2
+				add_base_production = -2
+				add_base_manpower = -2
+			}
+			set_global_flag = assyrian_heritage
+			change_primary_culture = assyrian
+			add_stability = -2
+		}
+	}
+}

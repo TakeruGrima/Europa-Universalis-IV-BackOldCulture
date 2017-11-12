@@ -1,0 +1,125 @@
+country_decisions = {
+
+#########################################################
+# Form Dahistan
+#########################################################
+	form_dahistan = {
+
+			major = yes
+			potential = {
+						religion = zoroastrian
+						OR = {
+						culture_group = steppe_people
+						culture_group = iranian
+						   }
+						OR = {
+						capital_scope = { culture = dahaean}
+						primary_culture = dahaean
+						   }
+						NOT = { exists = DHS }
+						NOT = { tag = KHS }
+						NOT = { tag = ERA }
+						NOT = { tag = PRS }
+						}
+			allow = {
+				is_at_war = no
+				owns_core_province = 437
+				437 = { religion = zoroastrian 
+					culture = dahaean }
+			}
+			effect = {
+				change_tag = DHS
+				change_primary_culture = dahaean
+				add_stability = 1
+				add_prestige = 25
+				set_capital = 437
+				swap_free_idea_group = yes
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			ai_importance = 250
+		}
+		
+#########################################################
+# Form Khwarezmia
+#########################################################
+	form_khwarezmia = {
+
+			major = yes
+			potential = {
+						religion = zoroastrian
+						OR = {
+						culture_group = steppe_people
+						culture_group = iranian
+						   }
+						OR = {
+						capital_scope = { culture = khwarezmian}
+						primary_culture = khwarezmian
+						   }
+						NOT = { exists = KWZ }
+						NOT = { tag = KHS }
+						NOT = { tag = ERA }
+						NOT = { tag = PRS }
+						}
+			allow = {
+				is_at_war = no
+				owns_core_province = 1973
+				1973 = { religion = zoroastrian 
+					 culture = khwarezmian }
+			}
+			effect = {
+				change_tag = KWZ
+				change_primary_culture = khwarezmian
+				add_stability = 1
+				add_prestige = 25
+				set_capital = 1973
+				swap_free_idea_group = yes
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			ai_importance = 250
+		}
+		
+#########################################################
+# Form Massagetea
+#########################################################
+	form_Massagetea = {
+
+			major = yes
+			potential = {
+						religion = zoroastrian
+						OR = {
+						culture_group = steppe_people
+						culture_group = iranian
+						   }
+						OR = {
+						capital_scope = { culture = massagetean}
+						primary_culture = massagetean
+						   }
+						NOT = { exists = MAS }
+						NOT = { tag = KHS }
+						NOT = { tag = ERA }
+						NOT = { tag = PRS }
+						}
+			allow = {
+				is_at_war = no
+				owns_core_province = 455
+				455 = { religion = zoroastrian 
+					 culture = massagetean }
+			}
+			effect = {
+				change_tag = MAS
+				change_primary_culture = massagetean
+				add_stability = 1
+				add_prestige = 25
+				set_capital = 455
+				swap_free_idea_group = yes
+			}
+			ai_will_do = {
+				factor = 1
+			}
+			ai_importance = 250
+		}
+}

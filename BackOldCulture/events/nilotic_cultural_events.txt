@@ -1,0 +1,82 @@
+namespace = niloticculture
+
+#########################################################
+# Kemetic
+#########################################################
+province_event = {
+
+	id = niloticculture.1
+	title = niloticculture.1.t
+	desc = niloticculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = nilotic}
+		OR{
+			religion_group = christian
+			religion_group = pagan
+		}
+		OR {
+			province_id = 362
+			province_id = 363
+			province_id = 2316
+			province_id = 358
+			province_id = 359
+			province_id = 361
+			province_id = 2317
+			province_id = 2318
+			province_id = 2315
+		}
+		NOT = { has_province_flag = nilotic_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = niloticculture.1.a
+		change_culture = kemetic
+		add_core = EGP
+		set_province_flag = nilotic_culture_conversion
+		add_nationalism = 10
+	}
+}
+
+#########################################################
+# Wasetic
+#########################################################
+province_event = {
+
+	id = niloticculture.2
+	title = niloticculture.2.t
+	desc = niloticculture.1.d
+	picture = CULTURE_eventPicture
+
+	trigger = {
+		NOT = {culture_group = nilotic}
+		OR{
+			religion_group = christian
+			religion_group = pagan
+		}
+		OR {
+			province_id = 2319
+			province_id = 2320
+			province_id = 2321
+			province_id = 1231
+			province_id = 1233
+			province_id = 360
+		}
+		NOT = { has_province_flag = nilotic_culture_conversion }
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = niloticculture.1.a
+		change_culture = wasetic
+		add_core = EGP
+		set_province_flag = nilotic_culture_conversion
+		add_nationalism = 10
+	}
+}
