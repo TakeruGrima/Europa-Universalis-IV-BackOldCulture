@@ -1,0 +1,74 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 127  24  24 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Timothy #0" = 30
+	"Isho' Bar Num #0" = 10
+	"Giwargis #0" = 10
+	"Sabrisho #0" = 10
+	"Abraham #0" = 10
+	"Theodosius #0" = 10
+	"Sargis #0" = 10
+	"Enosh #0" = 10
+	"Yohannan #0" = 10
+	"Emmanuel #0" = 10
+	"Israel #0" = 10
+	"'Abdisho #0" = 10
+	"Mari #0" = 10
+	"Isho' yahb #0" = 10
+	"Eliya #0" = 10
+	
+	"Akhita #0" = -10
+	"Shafira #0" = -10
+	"Aramina #0" = -10
+	"Arbelina #0" = -10
+}
+
+leader_names = {
+	"Ben Gabriel" 
+	Aho
+	"Bar Mokates"
+	Kasri
+	Yohannan
+	GUzi
+	Rashu
+	Mansur
+	"Bar Hibraius"
+	"Bet QUinyana"
+	Israel
+	Yona
+	"Ammo Baba"
+}
+
+ship_names = {
+	"Papa bar Aggai" Shahdost Niniveh Isaac "Thoma Shlikha" 
+	Babowai Barsauma Shila Elisha Yeshua Nestorius 
+}

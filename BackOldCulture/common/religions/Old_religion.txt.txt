@@ -1,0 +1,106 @@
+christian = {
+	nestorian = {
+			color = { 0.6 0.6 0 }
+			icon = 22
+			allowed_conversion = {
+				coptic
+				orthodox
+				catholic
+			}
+			country = {
+				stability_cost_modifier = -0.1
+				tolerance_own = 1
+			}
+			country_as_secondary = {
+				tolerance_heathen = 2
+				siege_ability = 0.1
+			}
+			on_convert = {
+				change_religion = nestorian
+				add_stability = -3
+			}
+
+			heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
+
+			misguided_heretic = yes		# Other christians hate them less (?)
+
+			date = 1444.7.1
+		}
+	}
+	
+crescent = {
+
+	flags_with_emblem_percentage = 10
+
+	ashurism = {
+		color = { 0.9 0.9 0.9 }
+		icon = 28
+		province = {
+			local_missionary_strength = 0.01
+		}
+		country = {
+			tolerance_heathen = 1
+			defensiveness = 0.1
+		}
+		country_as_secondary = {
+			global_regiment_recruit_speed = -0.10
+			defensiveness = 0.2
+		}
+
+		personal_deity = yes
+		
+		heretic = { BEAR_SPIRIT SNAKE_CLAN }
+		
+		annex = yes
+		can_have_secondary_religion = yes
+	}
+	
+	kemet = {
+		icon = 29
+		color = { 0.9 0.9 0.3 }
+		country = {
+			global_autonomy = -0.05
+			legitimacy = 1
+			stability_cost_modifier = 0.25
+		}
+		country_as_secondary = {
+			legitimacy = 1
+			stability_cost_modifier = 0.25
+		}
+		
+		personal_deity = yes
+		heretic = { BEAR_SPIRIT SNAKE_CLAN }
+		annex = yes
+		can_have_secondary_religion = yes
+	}
+ }
+ 
+ hellenic = {
+
+	flags_with_emblem_percentage = 10
+	flag_emblem_index_range = { 83 96 }
+
+	hellenism = {
+		color = { 100 0 80 }
+		icon = 30
+		province = {
+			local_missionary_strength = 0.04
+		}
+		country = {
+			global_tax_modifier = 0.05
+			tolerance_heathen = 2
+		}
+		country_as_secondary = {
+			infantry_power = 0.1
+			global_tax_modifier = 0.1
+		}
+
+		personal_deity = yes
+
+		heretic = { SERAPIS }
+	}
+	
+	harmonized_modifier = harmonized_hellenic
+	
+	crusade_name = CRUSADE
+}

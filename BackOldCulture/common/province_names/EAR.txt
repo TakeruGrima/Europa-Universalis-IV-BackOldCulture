@@ -1,0 +1,36 @@
+#Anatolia
+
+2306 = Tigranakerte #Mus
+418 = Edessa #Diyarbakir
+2303 = Kommagene #Malatya
+2305 = Sophene #Erzincan
+327 = Adana #Tarsos
+419 = Artaxate #Yerevan 
+331 = Karin #Erzurum
+377 = "Alep"			#Aleppo	
+
+#####Mashriq######
+364 = "Gaza"			#Gaza
+378 = "Byblos"			#Tarabulus
+379 = "Jerusalem"		#Jerusalem
+380 = "Sela"			#Al Karak
+381 = "Aloon"			#Ajlun
+382 = "Damascus"		#Damascus
+405 = "Palmyra"			#Tadmor
+406 = "Mari"			#As Sahiliyah
+407 = "Ar Raka"			#Ar Raqqa
+408 = "Lagash"			#Basra
+409 = "Babilon"			#Hillah
+410 = "Eshnunna"		#Baghdad
+412 = "Khuheshtan"		#Khuzestan
+1849 = "Hama"			#Hama
+1854 = "Ashkelon"		#Nablus
+1855 = "Tyr"			#Sidon
+2209 = "Elam"			#Ilam
+2308 = "Nisibis"		#Cizre
+2309 = "Hatra"			#Sinjar
+2310 = "Assur"		  	#Tikrit
+2311 = "Eridu"			#Samawah
+2312 = "Nippur"			#Wasit
+2314 = "Resatha"		#Rahba
+2340 = "Ur"			#Grane

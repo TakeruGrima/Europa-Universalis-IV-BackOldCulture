@@ -1,0 +1,107 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 74  72  75 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Kurosh #0" = 30
+	"Ardashir #0" = 10
+	"Iskandar #0" = 10
+	"Khosrow #0" = 10
+	"Arshad #0" = 10
+	"Arshan #0" = 10
+	"Farzan #0" = 10
+	"Farshad #0" = 10
+	"Jebreil #0" = 10
+	"Kamran #0" = 10
+	"Mahyar #0" = 10
+	"Nassem #0" = 10
+	"Sepher #0" = 10
+	"Shahram #0" = 10
+	"Zhobin #0" = 10
+	
+	"Rokshana #0" = -10
+	"Anahid #0" = -10
+	"Andleeb #0" = -10
+	"Ariana #0" = -10
+	"Banafsheh #0" = -10
+	"Barsine #0" = -10
+	"Farangis #0" = -10
+	"Farahnaz #0" = -10
+	"Mahdokht #0" = -10
+	"Shereen #0" = -10
+}
+
+leader_names = {
+	Chosroid 
+	Mihranid 
+	Dabuyid 
+	Pasdupanid 
+	Samanid 
+	Tahirid
+	Banijurid 
+	Saffarid 
+	Farighunid 
+	Nasrid 
+	Mihrabanid 
+	Afrasiab
+	Pahlavi 
+	Orontid 
+	Shaddadid 
+	Marwanid 
+	Hazaraspid 
+	Justanid 
+	Sallarid 
+	Bujid 
+	Kakuyid 
+	Ziyarid
+}
+
+ship_names = {
+	Abathur "Adamn Kasia" "Aesma Daeva" Agas
+	Ahriman Ahura "Ahura Mazda" Ahurani Airyaman
+	"Aka Manah" Aladdin Allatum Amashaspan Ameratat
+	"Amesha Spentas" Anahita "Angra Mainyu" Anjuman
+	"Apam-natat" Apaosa Aredvi Arishtat Armaiti Arsaces
+	"Asha vahista" Asman "Asto Vidatu" "Astvat-Ereta"
+	Atar "Azi Dahaka" Baga Bahram Burijas Bushyasta Buyasta
+	Camros Daena Daevas Ahaka Dahhak Dena Dev Diwe Drug
+	Drvaspa Frashegird Fravashis Gandarewa "Gao-kerena"
+	Gayomard Gayomart "Geus-Tasan" "Geus-Urvan" Haoma
+	Haurvatat Humay Hvar Hvarekhshaeta Indar Indra Izha
+	Jamshid Jeh Karshipta Kavi Khara "Khshathra vairya"
+	Kundrav Mah Mahre Mahrianag Manu Manuchihir Mao 
+	Mashyane Mashye Menog Mithra Nairyosangha Nanghaithya
+	Neriosang Ormazd Peris Peshdadians Rapithwin Rashnu
+	Rustam Saurva Simurgh "Spenta Mainyu" Sraosa Srosh
+	Tawrich Thunaupa Tistrya Tushnamatay Vanant Vata
+	Verethragna "Vohu Manah" Vouruskasha Yam Yasht Yazata
+	Yezidi Yima Zal Zam "Zam-Armatay" Zarathustra Zarich
+	"Zend-Avesta" Zurvan
+}

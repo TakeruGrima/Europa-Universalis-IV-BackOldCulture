@@ -1,0 +1,48 @@
+achaemenid_monarchy = {
+	rank = {
+		1 = SATRAPY
+		2 = SHAHDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = SATRAP
+		2 = SHAH
+		3 = SHAHANSHAH
+	}
+
+	ruler_female = {
+		1 = SHEIKHA
+		2 = SHAH
+		3 = SHAHANSHAH
+	}
+	
+	consort_male = {
+		1 = SATRAP_CONSORT
+		2 = SHAH_CONSORT
+		3 = SHAH_CONSORT
+	}
+
+	consort_female = {
+		1 = SATRAP_CONSORT
+		2 = SHAH_CONSORT
+		3 = SHAH_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = SHAHZADE
+		3 = SHAHZADE
+	}
+
+	heir_female = {
+		1 = HEIR
+		2 = SHAHDOKHT
+		3 = SHAHDOKHT
+	}
+
+	trigger = {
+		government = monarchy
+		culture_group = achaemenid
+	}
+}

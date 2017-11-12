@@ -1,0 +1,125 @@
+#####Anatolia#####
+
+316 = "Bithiniya"		#Kocaeli	
+317 = "Mysiya"			#Hüdavendigar
+318 = "Eysiya"			#Sugla
+319 = "Lykiya"			#Mentese
+320 = "Rhod"			#Rhodes
+321 = "Syp's"			#Cyprus
+322 = "Lidiya"			#Kütahya
+323 = "Lykaniya"		#Konya
+324 = "Pathiliya"		#Karaman
+325 = "Paloniya"		#Kastamonu
+326 = "Thirhiya"		#Ankara
+327 = "Tarsus"			#Adana
+328 = "Pont's"			#Sinop
+329 = "Sihas"			#Sivas
+330 = "Trebiyont"		#Trebizond
+331 = "Eroor"			#Erzurum
+332 = "Marqash"			#Marash
+377 = "Arpad"			#Aleppo	
+418 = "Carchemish"		#Diyarbakir	
+1846 = "Amasya"			#Amasya
+1848 = "Kariya"			#Hamid
+2296 = "Peheya"			#Biga
+2297 = "Manisa"			#Saruhan
+2298 = "Ataleya"		#Tekke
+2299 = "Klortiyopolis"	#Bolu
+2300 = "Yosat"			#Bozok
+2301 = "Kanish"			#Kayseri
+2302 = "Mer'sin"		#Içel
+2303 = "Melitin"		#Malatya
+2304 = "Kanik"			#Canik
+2305 = "Esin'kan"		#Erzincan
+2306 = "Mesh"			#Mush
+2307 = "Han"			#Van
+2313 = "Antiyokiya"		#Antioch	
+2348 = "Lesibos"		#Chios
+
+#####Mashriq######
+364 = "Pelusium"		#Gaza
+378 = "Harmath"			#Tarabulus
+379 = "Yoodeya"			#Jerusalem
+380 = "Sela"			#Al Karak
+381 = "Aloon"			#Ajlun
+382 = "Damashk's"		#Damascus
+405 = "Pamira"			#Tadmor
+406 = "Mari"			#As Sahiliyah
+407 = "Ar Raka"			#Ar Raqqa
+408 = "Lagash"			#Basra
+409 = "Babili"			#Hillah
+410 = "Eshnunna"		#Baghdad
+412 = "Khuheshtan"		#Khuzestan
+1849 = "Hama"			#Hama
+1854 = "Ashkelon"		#Nablus
+1855 = "Sidon"			#Sidon
+2209 = "Elam"			#Ilam
+2308 = "Nisibis"		#Cizre
+2309 = "Hatra"			#Sinjar
+2310 = "Assur"		  	#Tikrit
+2311 = "Eridu"			#Samawah
+2312 = "Nippur"			#Wasit
+2314 = "Resatha"		#Rahba
+2340 = "Ur"				#Grane
+
+#####Egypt#####
+
+356	= "Syreneyka"		#Benghazi
+357	= "Darenis"			#Darnah
+358	= "Alek'sandiya"	#Alexandria
+359	= "Krokodilopolis"	#Faiyum
+360	= "Thebes"			#Qena
+361 = "Memphis"			#Cairo
+362 = "Sais"			#Rosetta
+363 = "Tanis"			#Damietta
+365 = "Sina"			#Sinai
+1231 =	"Jeb"			#Aswan
+1233 =	"Khara"			#Kharga
+1234 =	"Kasibim"		#Qasr Ibrim
+2315 =	"Sooes"			#Suez
+2316 =	"Bubastis"		#Al Gharbia
+2317 =	"Heracleopolis"	#Minya
+2318 =	"Awata"			#Al Wahat
+2319 =	"Akhetatun"		#Asyut
+2320 =	"Rasarib"		#Ras Gharib
+2321 =	"Limen"			#Queseer
+2322 =	"Wadi Hatha"	#Wadi Halfa
+2323 =	"Saranebya"		#Sahra an Nübyah
+2325 =	"Pareytony'm"	#Tarrana
+2326 = 	"Badiyah"		#Bardiyah
+
+#####Persia#####
+
+411	= "Arbela"			#Mosul
+413	= "Loreshtan"		#Khorramabad
+414	= "Ahmata"			#Hamadan
+415	= "Sharihor"		#Shahrizor
+416	= "Aherbayan"		#Tabriz
+417	= "Ilan"			#Gilan
+424	= "Ardabil"			#Ardabil
+426	= "Mahanratan"		#Mazandaran
+428	= "Rey"				#Teheran
+429	= "Ishth'han"		#Isfahan
+430	= "Boosher"			#Dashtistan
+431	= "Hormos"			#Mogostan
+432	= "Keman"			#Kerman
+433	= "Yasht"			#Yazd
+2206 = "Ormiya"			#Urmia	
+2207 = "Maraheh"		#Maragheh	
+2210 = "Kiman'sha"		#Kirmanshah	
+2211 = "Adalan"			#Ardalan	
+2212 = "Saniyan"		#Zanjan	
+2213 = "Marokasi"		#Markazi	
+2214 = "Oleshtan"		#Golestan	
+2215 = "Kaswin"			#Qazvin	
+2216 = "Sem'nan"		#Semnan	
+2217 = "Yasoo"			#Yasuj	
+2218 = "Saweshtan"		#Shiraz	
+2219 = "Bantalaneh"		#Bandar Langeh
+2220 = "Bam"			#Bam	
+2222 = "Adakan"			#Ardakan
+2223 = "Lareshtan"		#Larestan
+2234 = "Rasan'yan"		#Rafsanjan
+2999 = "Qeshm"			#Hormuz
+
+

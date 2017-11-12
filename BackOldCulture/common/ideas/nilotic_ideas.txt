@@ -1,0 +1,79 @@
+MEO_ideas = {
+	start = {
+		global_tax_modifier = 0.10
+		hostile_attrition = 1.0
+	}
+
+	bonus = {
+		manpower_recovery_speed = 0.20
+	}
+
+	trigger = {
+		tag = MEO
+	}
+	free = yes
+
+	egyptian_influences_kush = {
+		technology_cost = -0.1
+	}
+	nubian_pyramids = {
+		prestige = 1
+	}
+	iron_working_kush = {
+		infantry_power = 0.1
+	}
+	rightful_rulers_of_egypt = {
+		legitimacy = 1
+	}
+	meroitic_alphabet = {
+		culture_conversion_cost = -0.1
+	}
+	blue_and_white_nile_rivers_kush = {
+		production_efficiency = 0.1
+	}
+	resistance_to_foreign_invaders_kush = {
+		land_morale = 0.1
+	}
+}
+
+EGP_ideas = {
+	start = {	
+			build_cost = -0.1
+			mercenary_cost = -0.2
+	}
+	
+	bonus = {
+			state_maintenance_modifier = -0.33
+			trade_efficiency = 0.1
+	}
+	
+	trigger = {
+			OR {
+				culture= wasetic
+				culture= kemetic
+			}
+	}
+	free = yes
+		
+	egyptian_mines = {
+		production_efficiency = 0.1
+	}
+	egyptian_technology = {	
+		technology_cost = -0.05
+	}	
+	chariotry = {
+		cavalry_power = 0.1
+	}	
+	absolute_monarchy = {	
+		legitimacy = 1
+	}
+	egyptian_agriculture = {
+		 development_cost = -0.1
+	}
+	land_management = {
+		global_tax_modifier = 0.1
+	}
+	transsaharan_trade = {
+		caravan_power = 0.2
+	}	
+} 

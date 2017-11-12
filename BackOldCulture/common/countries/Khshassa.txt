@@ -1,0 +1,125 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 171  14  9 }
+historical_score = 600
+revolutionary_colors = { 10  0  5 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Cyrus #0" = 30
+	"Cambyses #0" = 10
+	"Darius #0" = 10
+	"Xerxes #0" = 10
+	"Artaxerxes #0" = 10
+	"Sogdianus #0" = 10
+	"Teispes #0" = 10
+	"Achaemenes #0" = 10
+	"Ariaramnes #0" = 10
+	"Hystaspes #0" = 10
+	"Arsites #0" = 10
+	"Bagapaios #0" = 10
+	"Ostanes #0" = 10
+	"Arsames #0" = 10
+	"Oxathres #0" = 10
+	"Ocha #0" = 10
+	
+	"Artystone #0" = -10
+	"Atossa #0" = -10
+	"Amestris #0" = -10
+	"Sisygambis #0" = -10
+	"Apama #0" = -10
+	"Rodrogune #0" = -10
+	"Stateira #0" = -10
+	"Parysatis #0" = -10
+}
+
+leader_names = {
+	"of Parthava"
+	"of Varkana"
+	"of Mada"
+	"of Armina"
+	"of Athura"
+	"of Babirush"
+	"of Parsa"
+	"of Maka"
+	"of Asagarta"
+	"of Haraiva"
+	"of Margush"
+	"of Daha"
+	"of Uvarazmish"
+	"of Saka Tigraxauda"
+	"of Suguda"
+	"of Baxtrish"
+	"of Gandara"
+	"of Harauvatish"
+	"of Zranka"
+	"of Thatagush"
+	"of Hindush"
+	"of Oreitai"
+	"of Athura"
+	"of Ebir-nari"
+	"of Arabaya"
+	"of Mudraya"
+	"of Kushiya"
+	"of Putaya"
+	"of Yadnana"
+	"of Hilakku"
+	"of Katpatuka"
+	"of Tayaiy Drayahya"
+	"of Sparda"
+	"of Karka"
+	"of Lykia"
+	"of Yauna"
+	"of Skudra"
+
+
+}
+
+ship_names = {
+	Abathur "Adamn Kasia" "Aesma Daeva" Agas
+	Ahriman Ahura "Ahura Mazda" Ahurani Airyaman
+	"Aka Manah" Aladdin Allatum Amashaspan Ameratat
+	"Amesha Spentas" Anahita "Angra Mainyu" Anjuman
+	"Apam-natat" Apaosa Aredvi Arishtat Armaiti Arsaces
+	"Asha vahista" Asman "Asto Vidatu" "Astvat-Ereta"
+	Atar "Azi Dahaka" Baga Bahram Burijas Bushyasta Buyasta
+	Camros Daena Daevas Ahaka Dahhak Dena Dev Diwe Drug
+	Drvaspa Frashegird Fravashis Gandarewa "Gao-kerena"
+	Gayomard Gayomart "Geus-Tasan" "Geus-Urvan" Haoma
+	Haurvatat Humay Hvar Hvarekhshaeta Indar Indra Izha
+	Jamshid Jeh Karshipta Kavi Khara "Khshathra vairya"
+	Kundrav Mah Mahre Mahrianag Manu Manuchihir Mao 
+	Mashyane Mashye Menog Mithra Nairyosangha Nanghaithya
+	Neriosang Ormazd Peris Peshdadians Rapithwin Rashnu
+	Rustam Saurva Simurgh "Spenta Mainyu" Sraosa Srosh
+	Tawrich Thunaupa Tistrya Tushnamatay Vanant Vata
+	Verethragna "Vohu Manah" Vouruskasha Yam Yasht Yazata
+	Yezidi Yima Zal Zam "Zam-Armatay" Zarathustra Zarich
+	"Zend-Avesta" Zurvan
+}

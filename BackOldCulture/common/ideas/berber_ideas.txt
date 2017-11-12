@@ -1,0 +1,38 @@
+numidian_ideas = {
+	start = {
+		cavalry_cost = -0.2
+		land_forcelimit_modifier = 0.2
+	}
+	
+	bonus = {
+		movement_speed = 0.1
+	}
+	
+	trigger = {
+		culture_group = berber_group
+	}
+	free = yes
+		
+	numidian_cavalry = {
+		cavalry_power = 0.15
+	}
+	in_the_shadow = {	
+		technology_cost = -0.05
+	}
+	berber_kingdoms = {
+		legitimacy = 1
+		horde_unity = 1
+	}
+	desert_warriors = {
+		land_attrition = -0.3
+	}	
+	caravan_trade = {
+		global_prov_trade_power_modifier = 0.15
+	}
+	qanats = {
+		development_cost = -0.1
+	}	
+	harassing_tactic = {
+		cavalry_flanking = 0.25
+	}
+}

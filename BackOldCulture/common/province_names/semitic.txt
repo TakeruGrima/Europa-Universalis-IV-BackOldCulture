@@ -1,0 +1,31 @@
+#####Anatolia#####
+2313 = "Alalah"			#Antioch
+418 = "Edessa"			#Diyarbakir	
+327 = "Tarsus"			#Adana
+377 = "Ebla"			#Aleppo	
+
+#####Mashriq######
+364 = "Gaza"			#Gaza
+378 = "Byblos"			#Tarabulus
+379 = "Jerusalem"		#Jerusalem
+380 = "Sela"			#Al Karak
+381 = "Aloon"			#Ajlun
+382 = "Damas"			#Damascus
+405 = "Palmyra"			#Tadmor
+406 = "Mari"			#As Sahiliyah
+407 = "Ar Raka"			#Ar Raqqa
+408 = "Lagash"			#Basra
+409 = "Babili"			#Hillah
+410 = "Eshnunna"		#Baghdad
+412 = "Khuheshtan"		#Khuzestan
+1849 = "Hama"			#Hama
+1854 = "Ashkelon"		#Nablus
+1855 = "Tyr"			#Sidon
+2209 = "Elam"			#Ilam
+2308 = "Nisibis"		#Cizre
+2309 = "Hatra"			#Sinjar
+2310 = "Assur"		  	#Tikrit
+2311 = "Eridu"			#Samawah
+2312 = "Nippur"			#Wasit
+2314 = "Resatha"		#Rahba
+2340 = "Ur"				#Grane

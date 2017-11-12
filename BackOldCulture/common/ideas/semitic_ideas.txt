@@ -1,0 +1,157 @@
+OSR_ideas = {
+	start = {
+		global_manpower_modifier = 0.10
+	}
+	
+	bonus = {
+		tolerance_own = 3
+	}
+
+	trigger = {
+		tag = OSR
+	}
+	free = yes		# will be added at load
+	
+	resistance_against_hellenism = {
+		global_missionary_strength = 0.02
+		tolerance_heathen = -1
+	}
+	buffer_between_persia_and_rome = {
+		defensiveness = 0.2
+	}
+	seleucid_empire = {
+		infantry_power = 0.15
+	}
+	centre_of_syriac_learning = {
+		technology_cost = -0.05
+	}
+	upper_course_of_the_euphrates = {
+		trade_efficiency = 0.1
+	}
+	abgar_fifth = {
+		prestige = 1
+	}
+	edessa = {
+		global_tax_modifier = 0.1
+	}
+}
+
+PHO_ideas = {
+	start = {
+		trade_efficiency = 0.10
+		global_trade_power = 0.1
+	}
+	
+	bonus = {
+		galley_power = 0.25
+		naval_maintenance_modifier = -0.2
+	}
+	
+	trigger = {
+		OR = {
+			tag = PHO
+			tag = CAE
+		}
+	}
+	free = yes
+	
+	phoenician_galley = {
+		galley_power = 0.25
+	}	
+	love_of_the_wide = {
+		naval_morale = 0.20
+	}
+	heritage_cananeen = {	
+		development_cost = -0.1
+	}
+	control_commercial = {
+		global_trade_power = 0.1
+	}
+	phoenician_alphabet = {
+		improve_relation_modifier = 0.33
+	}
+	semitic_6 = {
+		land_morale = 0.1
+	}	
+	semitic_7 = {
+		cavalry_cost = -0.2
+	}
+}
+
+PLM_ideas = {
+	start = {
+		trade_efficiency = 0.1
+		global_prov_trade_power_modifier = 0.1
+	}
+
+	bonus = {
+		global_own_trade_power = 0.2
+	}
+
+	trigger = {
+		tag = PLM
+	}
+	free = yes
+
+	palmyra = {
+		trade_steering = 0.2
+	}
+	zenobia = {
+		prestige = 1
+	}
+	palmyrene_culture = {
+		num_accepted_cultures = 1
+		tolerance_heathen = 1	
+	}
+	temple_of_bel = {
+		global_missionary_strength = 0.02
+	}
+	trade_caravans_plm = {
+		caravan_power = 0.2
+		global_trade_goods_size_modifier = 0.1
+	}
+	monumental_projects_plm = {
+		build_cost = -0.10
+	}
+	ties_with_rome_plm = {
+		diplomatic_upkeep = 1
+	}
+}
+
+ISR_ideas = {
+	start = {
+		advisor_pool = 1
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		diplomats = 1
+	}
+
+	trigger = {
+		tag = ISR
+	}
+	free = yes		# will be added at load
+	
+	land_of_the_prophets = {
+		global_missionary_strength = 0.01
+	}
+	chosen_people = {
+		enemy_core_creation = 1.0
+	}
+	safe_haven_for_jews = {
+		tolerance_own = 3
+	}
+	promised_land = {
+		global_tax_modifier = 0.1
+	}
+	holy_temple_of_jerusalem = {
+		prestige = 1
+	}
+	isr_passover = {
+		global_manpower_modifier = 0.20
+	}
+	the_decalogue = {
+		global_unrest = -1
+	}
+}

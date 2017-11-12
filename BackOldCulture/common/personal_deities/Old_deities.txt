@@ -1,0 +1,246 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+
+
+#Ashurism
+asshur =
+{
+        land_morale = 0.1
+        tolerance_heretic = 2
+
+        allow = { religion = ashurism }
+        sprite = 13
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 3
+                          personality = ai_capitalist
+                  }
+                  modifier = {
+                          factor = 2
+                          personality = ai_militarist
+                  }
+        }
+}
+
+anu =
+{
+        diplomatic_upkeep = 1
+        relations_decay_of_me = 0.10
+
+        allow = { religion = ashurism }
+        sprite = 14
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 3
+                          personality = ai_diplomat
+                 
+                  }
+        }
+}
+
+bel =
+{
+        global_tax_modifier = 0.1
+        stability_cost_modifier = -0.10
+
+        allow = { religion = ashurism }
+        sprite = 15
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 3
+                          personality = ai_capitalist
+                  }
+        }
+}
+
+ea =
+{
+        core_creation = -0.10
+        land_attrition = -0.10
+        
+        allow = { religion = ashurism }
+        sprite = 16
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 2
+                          personality = ai_militarist
+                  }
+                  modifier = {
+                          factor = 2
+                          personality = ai_capitalist
+                  }
+        }
+}
+
+shamash =
+{
+        relations_decay_of_me = 0.20
+        global_unrest = -1
+
+        allow = { religion = ashurism }
+        sprite = 17
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 3
+                          personality = ai_capitalist
+                  }
+                  modifier = {
+                          factor = 2
+                          personality = ai_diplomat
+                  }
+        }
+}
+
+ramman =
+{
+        hostile_attrition = 1.0
+        siege_ability = 0.1
+
+        allow = { religion = ashurism }
+        sprite = 18
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 3
+                          personality = ai_militarist
+                  }
+        }
+}
+
+#kemet
+amun =
+{
+         global_tax_modifier = 0.1
+         navy_tradition = 1
+
+         allow = { religion = kemet }
+         sprite = 19
+
+         ai_will_do = {
+                   factor = 1
+                   modifier = {
+                           factor = 2
+                           personality = ai_capitalist
+                   }
+                   modifier = {
+                           factor = 2
+                           personality = ai_militarist
+                   }
+        }
+}
+
+maat =
+{
+        stability_cost_modifier = -0.10
+        global_unrest = -1
+
+        allow = { religion = kemet }
+        sprite = 20
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 3
+                          personality = ai_capitalist
+                  }
+                  modifier = {
+                          factor = 2
+                          personality = ai_diplomat
+                  }
+        }
+}
+
+ra =
+{
+        hostile_attrition = 1.0
+        recover_army_morale_speed = 0.05
+
+        allow = { religion = kemet }
+        sprite = 21
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 2
+                          personality = ai_militarist
+                  }
+                  modifier = {
+                          factor = 0.5
+                          personality = ai_capitalist
+                  }
+        }
+}
+
+seth =
+{
+         infantry_power = 0.1
+         global_manpower_modifier = 0.1
+
+         allow = { religion = kemet }
+         sprite = 22
+
+         ai_will_do = {
+                   factor = 1
+                   modifier = {
+                           factor = 3
+                           personality = ai_militarist
+                   }
+                   modifier = {
+                          factor = 0.5
+                          personality = ai_capitalist
+                   }
+        }
+}    
+
+isis =
+{
+        heir_chance = 0.50
+        manpower_recovery_speed = 0.25
+
+        allow = { religion = kemet }
+        sprite = 23
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 3
+                          personality = ai_diplomat
+                  }
+                  modifier = {
+                          factor = 0.5
+                          personality = ai_militarist
+                  }
+        }
+}
+
+anubis =
+{
+        global_unrest = -1
+        discipline = 0.05
+
+        allow = { religion = kemet }
+        sprite = 24
+
+        ai_will_do = {
+                  factor = 1
+                  modifier = {
+                          factor = 2
+                          personality = ai_militarist
+                  }
+                  modifier = {
+                          factor = 2
+                          personality = ai_capitalist
+                  }
+        }
+}

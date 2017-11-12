@@ -1,0 +1,51 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 135 168 181 }
+
+
+
+historical_idea_groups = {
+	
+}
+
+historical_units = {
+	
+}
+
+monarch_names = {
+	"Ishpaka" = 20
+	"Partatua" = 20
+	"Madea" = 20
+	"Eruvand" = 20
+	"Tigran" = 20
+	"Tar" = 20
+	"Torram" = 20
+	"Tiermes" = 20
+	"Tarem" = 20
+	"Tarsua" = 20
+	"Sco" = 20
+	"Ra" = 20
+	"Pada" = 20
+	"Ada" = 20
+
+
+
+}
+
+leader_names = {
+			Ishpaka Partatua Madea Eruvand Tigran Tar Torram Tarem Tiermes Terem Tarsua Sco Ra Pada Ada
+}
+
+ship_names = {
+	
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Ships of $PROVINCE$"
+}

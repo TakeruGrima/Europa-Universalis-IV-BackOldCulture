@@ -1,0 +1,15 @@
+#####Egypte#####
+
+363	= Tamiat #Damietta
+362	= Nemesis #Rosetta
+358 = Alexandria
+2316 = Bubastis # Gharbia
+361	= Memphis  #Cairo
+359 = Shedet # Faiyum
+2317 = Antinoupolis # Minya
+2319 = Akhetatun # Asyut
+360 = Ouaset # Qena ou Thebae
+356 = Bernike
+357 = Kyrene
+2326 = Antipyrgos
+

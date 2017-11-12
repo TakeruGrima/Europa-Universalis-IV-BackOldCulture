@@ -1,0 +1,62 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 131 62 159 }
+
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+
+historical_units = {
+	
+}
+
+monarch_names = {
+	"Tiridates #1" = 40
+	"Arsaces #1" = 40
+	"Phriapatius #1" = 40
+	"Phraates #1" = 40
+	"Mithridates #1" = 40
+	"Bacasis #1" = 40
+	"Artabanus #1" = 40
+	"Artabanus #1" = 40
+	"Gotarzes #1" = 40
+	"Orodes #1" = 40
+	"Sanatruces #1" = 40
+	"Pacorus #1" = 40
+	
+	"Yesfir #1" = -1
+	"Zareen #1" = -1
+	"Zhaleh #1" = -1
+	"Nahid #1" = -1
+	"Banu #1" = -1
+	"Esta #1" = -1
+	"Jaleh #1" = -1
+}
+
+leader_names = {
+		Alborz Arash Ardashir Arman Babak Bahadur Bahman Bahram Baraz Behnam Cas Casper Cyrus Darien
+		Darius Dariush Faridoon Farzin Feroze Firuz Gaspar Gazsi Jahan Jahangir Jasper Javed Jesper Kacper Kir Kaveh
+		Mirza Navid Paiman Parviz Payam Rahim Sargon Shahin Shapur Xerxes 	
+}
+
+ship_names = {
+	
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Ships of $PROVINCE$"
+}

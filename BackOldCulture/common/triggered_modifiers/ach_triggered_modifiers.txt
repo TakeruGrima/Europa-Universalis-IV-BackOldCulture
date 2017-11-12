@@ -1,0 +1,97 @@
+#########################################################
+# Zoroastrian control of the shrines of Yazd
+#########################################################
+zoroastrian_yazd = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 433	# Yazd
+		religion = zoroastrian
+	}
+
+	trigger = {
+		owns = 433 # Yazd
+	}
+
+	prestige = 0.5
+	missionaries = 1
+}
+
+#########################################################
+# Zoroastrian control of holy cities
+#########################################################
+zoroastrian_holy_cities = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 379	# Jerusalem
+		has_discovered = 384	# Medina
+		has_discovered = 385	# Mecca
+		religion = zoroastrian
+	}
+
+	trigger = {
+		owns = 379 	# Jerusalem
+		owns = 384 	# Medina
+		owns = 385	# Mecca
+	}
+
+	prestige = 0.5
+	missionaries = 1
+}
+
+######################################
+# Persian control of Greece
+######################################
+persian_control_greece = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 151	# Constantinople
+		has_discovered = 146	# Athens
+		has_discovered = 145	# Morea
+		OR = { 
+		tag = KHS
+		tag = PRS
+		tag = ERA
+		}
+	}
+
+	trigger = {
+		owns = 146 # Athens
+		owns = 151 # Constantinople
+		owns = 145 # Morea
+	}
+
+	prestige = 0.5
+	legitimacy = 0.5
+	#icon = 9
+}
+
+######################################
+# Persian control of the Levant
+######################################
+persian_control_levant = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 361	# Cairo
+		has_discovered = 410	# Baghdad
+		has_discovered = 382	# Damascus
+		has_discovered = 326	# Ankara
+		has_discovered = 419	# Yerevan
+		OR = { 
+		tag = KHS
+		tag = PRS
+		tag = ERA
+		}
+	}
+
+	trigger = {
+		owns = 361	# Cairo
+		owns = 410	# Baghdad
+		owns = 382	# Damascus
+		owns = 326	# Ankara
+		owns = 419	# Yerevan
+	}
+
+	prestige = 0.5
+	legitimacy = 0.5
+	#icon = 9
+}

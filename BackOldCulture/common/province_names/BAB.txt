@@ -1,0 +1,44 @@
+#####Anatolia#####
+
+327 = "Tarsus" #Adana
+332 = "Marqash" #Marash
+377 = "Arpad" #Alep
+418	= "Carchemish" #Diyarbakir	
+2301 = "Kanish" #Kayseri
+
+#####Egypt#####
+
+360 = "Thebes" #Qena
+361 = "Memphis" #Cairo
+362 = "Sais" #Rosetta
+363 = "Tanis" #Damietta
+365 = "Sina" #Sinai
+1231 = "Jeb" #Aswan
+2316 = "Bubastis" #Al Gharbia
+2317 = "Heracleopolis" #Minya
+2319 = "Akhetatun" #Asyut
+
+
+#####Syria#####
+
+364 = "Pelusium" #Gaza
+378 = "Harmath" #Tarabulus
+380 = "Sela" #Al Karak
+1855 = "Sidon" #Sidon
+1854 = "Ashkelon" #Nablus
+
+#####Mesopatamian######
+
+408 = "Lagash" #Basra
+409 = "Babylon" #Hillah
+410 = "Eshnunna" #Baghdad
+411 = "Nineveh" #Mosul
+2308 = "Nisibis" #Cizre
+2310 = "Assur" #Tikrit
+2311 = "Eridu" #Samawah
+2312 = "Nippur" #Wasit
+2340 = "Ur" #Grane
+
+#####Persia#####
+
+414 = "Ecbatana" #Hamadan

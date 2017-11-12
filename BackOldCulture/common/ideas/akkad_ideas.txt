@@ -1,0 +1,85 @@
+### Nation specific idea groups
+
+BAB_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		production_efficiency = 0.05
+	}
+
+	bonus = {
+		discipline = 0.075
+	}
+	
+	trigger = {
+		tag = BAB
+	}
+	free = yes		#will be added at load.
+	
+	restore_the_ishtar_gate = {
+		defensiveness = 0.2
+		prestige = 1
+	}
+	rebuild_the_university_of_babylon = {
+		idea_cost = -0.10
+		technology_cost = -0.05
+	}
+	original_lingua_franca = {
+		relations_decay_of_me = 0.3
+		diplomatic_reputation = 2
+	}
+	reworked_code_of_hammurabi = {
+		global_unrest = -2
+	}
+	legacy_of_sargon = {
+		infantry_power = 0.10
+		army_tradition_decay = -0.01
+	}
+	city_of_the_gods = {
+		no_religion_penalty = yes
+		religious_unity = 0.5
+	}
+	tigris_and_euphraties = {
+		global_tax_modifier = 0.05
+		global_trade_power = 0.15
+	}
+}
+
+ASY_ideas = {
+	start = {		
+		spy_offence = 0.33
+		tolerance_heretic = 2
+	}
+	
+	bonus = {
+		merchants = 1
+		global_unrest = -1
+	}
+	
+	trigger = { 
+		tag = ASY
+	}
+	free = yes
+		
+	immortals  = {
+		army_tradition = 0.5
+	}
+	azhurism = {	
+		tolerance_own = 2
+	}
+	heirs_of_the_empire = {
+		legitimacy = 1
+	}
+	alphabetic_ecriture = {
+		improve_relation_modifier = 0.33
+	}	
+	persian_cavalry = {
+		cavalry_power = 0.1
+	}
+	silkroad_persia = {
+		trade_steering = 0.25
+	}	
+	chapar_khaneh = {
+		diplomatic_upkeep = 2
+		envoy_travel_time = -0.20
+	}
+}

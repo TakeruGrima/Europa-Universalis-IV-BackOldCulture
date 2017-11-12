@@ -1,0 +1,41 @@
+BAK_ideas = {
+	start = {
+		merchants = 1
+		trade_efficiency = 0.15
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.15
+	}
+	
+	trigger = {
+		OR = {
+			tag = IGR
+		}
+	}
+	free = yes
+			
+	multireligious = {
+		tolerance_heathen = 2
+		tolerance_heretic = 1
+	}	
+	greek_and_indian_influence = {
+		global_institution_spread = 0.2
+	}
+	bactrian_horses = {
+		cavalry_power = 0.1
+	}
+	bactrian_gold = {
+		prestige = 1
+	}
+	silkroad_traders = {
+		caravan_power = 0.33
+	}	
+	bactrian_war_elephants = {
+		cavalry_power = 0.05
+		shock_damage = 0.05
+	}
+	land_of_1000_cities = {	
+		development_cost = -0.1
+	}
+}

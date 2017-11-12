@@ -1,0 +1,80 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 56 96 86 }
+
+revolutionary_colors = { 5  13  0 }
+
+
+historical_idea_groups = {
+	maritime_ideas
+	plutocracy_ideas
+	humanist_ideas
+	trade_ideas	
+	defensive_ideas
+	economic_ideas
+	quality_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	
+}
+
+monarch_names = {
+	"Hanno #1" = 20
+	"Malchus #1" = 20
+	"Mago #1" = 20
+	"Hasdrubal #1" = 20
+	"Hamilcar #1" = 20
+	"Himilco #1" = 20
+	"Hannibal #1" = 10
+	"Gisco #1" = 10
+	"Bomilcar #1" = 10
+	"Hampsicora #1" = 10
+	"Adherbal #0" = 10
+	"Maharbal #0" = 10
+	"Epicydes #0" = 10
+	
+	"Abdalonymus" = 5
+	"Achololim" = 5
+	"Baalhaan" = 5
+	"Carthalo" = 5
+	"Fuabal" = 5
+	"Hamiscora" = 5
+	"Luli" = 5
+	"Mathos" = 5
+	"Merbal" = 5
+	"Tendao" = 5
+	"Salicar" = 5
+	"Zaracas" = 5
+	"Shipitbaal" = 5
+	
+	"Dido" = -1
+	"Adonia" = -1
+	"Ashtoreth" = -1
+	"Coryander" = -1
+	"Jesibel" = -1
+	"Tanith" = -1
+	"Tanni" = -1
+	"Tanythe" = -1
+
+
+}
+
+leader_names = {
+		Magona Barca Didonia Hannonia Zinnridia Abimikia "of Carthage" "of Tunes" "of Thapsus" "of Hadrumentum" "of Utica" "of Olbia" "of Lilybaion"
+}
+
+ship_names = {
+	
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Ships of $PROVINCE$"
+}

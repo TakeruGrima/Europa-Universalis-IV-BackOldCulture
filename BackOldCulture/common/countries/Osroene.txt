@@ -1,0 +1,64 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 23  52  136 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Ma'nu #4" = 60
+	"Abgar #5" = 80
+	"Bakru #2" = 10
+	"Sanatruk #0" = 10
+	"Parthamaspates #0" = 10
+        "Paqor #0" = 10
+        "Aryu #0" = 10
+        "Abdu #0" = 10
+        "Fradhasht #0" = 10
+        "Wa'il #0" = 10
+        "Ezad #0" = 0
+        "Sumaqa #0" = 0
+        "Saphul #0" = 0
+        "Piqa #0" = 0
+        "Gebar'u #0" = 0
+        "Maz'ur #0" = 0
+		
+}
+
+leader_names = {
+	Sabiri
+	Jalili
+	Azizi
+	Shahy
+	Daei
+	Qazai
+	Dalwand
+	Ahrari
+	Fatemi
+	Sabet
+	Ansari
+}

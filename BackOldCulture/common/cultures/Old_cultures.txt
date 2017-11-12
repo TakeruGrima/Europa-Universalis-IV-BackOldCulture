@@ -1,0 +1,933 @@
+achaemenid = {
+		graphical_culture = muslimgfx
+
+		oldpersian = {
+		primary = PAS
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				 Chosroid Mihranid Dabuyid Pasdupanid Samanid Tahirid
+				 Banijurid Saffarid Farighunid Nasrid Mihrabanid Afrasiab
+				 Pahlavi
+		}
+	}
+		mede = {
+		primary = KHS
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Chosroid Mihranid Orontid Mede Shaddadid Marwanid Hazaraspid Ayyubid
+				Afrasiab Safavid Zand
+		}
+	}
+		hyrcanian = {
+		primary = KHS
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Chosroid Mihranid Dabuyid Pasdupanid Justanid Sallarid Ziyarid
+				Bujid Kakuyid Afrasiab Atropatenid Mithridatid
+		}
+	}
+		bactrian = {
+		primary = BAC
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Chosroid Mihranid Afrasiab
+		}
+	}
+		gedrosian = {
+		primary = KHS
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Chosroid Mihranid Afrasiab 
+		}
+	}
+		azari = {
+		primary = ATP
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Artaxiad Chosroid Mihranid Afrasiab
+		}
+	}
+		oldparthian = {
+		primary = PRT
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Chosroid Mihranid Bavand Surenas Spandiyadh Karenas Ispahbudhan Qarinvand
+				Afrasiab
+				
+		}
+	}
+		sogdian = {
+		primary = SOG
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Chosroid Mihranid "Bukhar Khudah" Sajid Ilyasid Ghurid Kartid
+				Afrasiab
+		}
+	}
+		arachosian = { 
+		primary = ARC
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Chosroid Mihranid Afrasiab Hotaki Durrani Barakzai
+		}
+	} 
+	
+		luri = {
+		primary = KHS
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				 Chosroid Mihranid Dabuyid Pasdupanid Samanid Tahirid
+				 Banijurid Saffarid Farighunid Nasrid Mihrabanid Afrasiab
+				 Pahlavi
+		}
+	}
+}
+
+steppe_people = {
+	graphical_culture = muslimgfx
+	
+	scythian = {
+
+		male_names = {	
+				Ishpaka Partatua Madea Eruvand Tigran Tar Torram Tarem Tiermes Terem Tarsua Sco Ra Pada Ada
+		}
+		female_names = {
+					Amage Tabiti "P'ha" Anya Ana
+		}
+	}
+	dahaean = { 
+		
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Achaemenid Sasanid Arsacid Chosroid Mihranid Afrasiab
+		}
+	}
+	massagetean = {
+
+		male_names = {	
+				Ishpaka Partatua Madea Eruvand Tigran Tar Torram Tarem Tiermes Terem Tarsua Sco Ra Pada Ada
+		}
+		female_names = {
+					Amage Tabiti "P'ha" Anya Ana
+		}
+	}
+	alan = {
+		primary = ALA
+		male_names = {
+			Ælbeg Æmbalan Aghsartan Alatey Akhsar Anbal Anbazuk Aravat Arsen Askhkadar Ashot Aslan Aspar Athom Balambar Balsag Barlah Bæqætar Basil Bazuk Beler Ber Biræg Boz-Uruz Buürgur Buriberdi
+			Burikhan Candak Chelakhsartag Davit Djadaron Durgulel Dzæræs Gætæg Georgy Girgon Gokhar Gubaz Guram Hasqar Huddan Istor Itaz Iveri Kandak Kandz Kavtia Kaur
+			Khankhusy Khætag Konstantin Kubal Kuddana Kul Kuluk Lak Levan Pulad Respendial Rosmag Safrak Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon Taymuraz Taus Totraz Urdure Uruzma Uturku Yasynya Zaur
+		}
+		female_names = {
+			Adadza Alda Altun Ana Atsyrukhs Baia Bedisa Borena Btsenon Burudukan Duda Elene Eliso Gergana Gulchara Guranduht Kera Keratsa Ketevan Koser
+			Lamara Lashin Lela Mariami Natia Nino Rusudan Sanatha Satinik Shatana Shorena Shukhia Tamari Tinatini Tsiala Vardo Vedokha Yeran
+		}
+	}
+	sarmatian = {
+		primary = SRM
+		male_names = {
+			Badaskapes Zanticus Beuca Babay Palacus Skilurus Zorsines Abeacus Sauromantes Ishpaka Partatua Madea Eruvand Tigran
+			Abazion Abdarakos Aboagos Abragos Abrozeos Adoes Akasas Akkas Aldis Alexarthos Arsalion Arseouachos Asander
+			Asaros Aspourgos Attaces Aunamos Azarion Azos Badagos Baioraspos Baiormaios Banas Bastakas Baxagos Chodekios Chouarsazos
+			Dadagos Didumoxarthos Eisgoudios Elmanos Eubarnakos Godosauos Iauakos Insazagos Irbis Kainaxarthos Kamorsazes Karaxstos Kasais
+			Mastas Mazis Medosaccus Methakos Namgenos Olgasus Omrasmakos Orsiomichos Spaldines Tasius Xegodis Zabandos Sozirsauos
+		}
+		female_names = {
+			Ababa Alda Alde Aldi Borena Burdukhan Leileme Mada Maiosara Saruke Storane Tamura Tirgatao
+		}
+	}
+	khwarezmian = { 
+		male_names = {
+				Mardonius Gobryas Artabanus Abrocomes Ariabignes Ariomardus Arsames
+				Arsites Artabazos Artapanus Artaphernes Artayctes Achaemenes Datis
+				Hydarnes Hyperanthes Masistius Megabates Megabyzus Mithridates Pharnabazus
+				Rhoesaces Spithridates Ariobarzanes
+				#persian names#
+				Rtafarnah Vidarna Bagabuxša 
+		}
+		female_names = {
+				Amestris
+				Youtab
+		}
+		dynasty_names = {
+				Chosroid Mihranid Afrighd "Ma'munid" Afrasiab
+		}
+	}
+	indo-scythian = {
+		male_names = {
+		}
+		female_names = {
+		}
+		dynasty_names = {
+		}
+	}
+}
+
+
+akkadian_group = {
+	graphical_culture = muslimgfx
+
+		assyrian = {
+			primary = ASY
+				male_names = {		Hormuzd Ashuri Asmar Aziz Amir Asur Behnam Issavi Albazi Shahbaz Mourad
+									Mirza Shahen Tamraz Yadgar Nabo Esho Bailshar Paseena Hale Arseen Awiqam
+									Abdu Aryu Bakru Abgar "Ma'nu" Sanatruk Yalur
+								}	
+				female_names = {	Dadu Bilit Belit Atheh Astarte Aruru Ninharrissi Nairi Pirisati Urmitu	}				
+		}
+		Babylonian = {
+			primary = BAB
+				male_names = {		Hormuzd Ashuri Asmar Aziz Amir Asur Behnam Issavi Albazi Shahbaz Mourad
+									Mirza Shahen Tamraz Yadgar Nabo Esho Bailshar Paseena Hale Arseen Awiqam
+									Abdu Aryu Bakru Abgar "Ma'nu" Sanatruk Yalur
+								}	
+				female_names = {	Dadu Bilit Belit Atheh Astarte Aruru Ninharrissi Nairi Pirisati Urmitu	}	
+		}
+		dynasty_names = {	Hormuzdai Asmaroi Amiroi Eshoi Haloi Arseenoi Yaloi
+										}
+		elamite = {
+			primary = ELM
+				male_names = {		Hormuzd Ashuri Asmar Aziz Amir Asur Behnam Issavi Albazi Shahbaz Mourad
+									Mirza Shahen Tamraz Yadgar Nabo Esho Bailshar Paseena Hale Arseen Awiqam
+									Abdu Aryu Bakru Abgar "Ma'nu" Sanatruk Yalur
+								}	
+				female_names = {	Dadu Bilit Belit Atheh Astarte Aruru Ninharrissi Nairi Pirisati Urmitu	}	
+		}
+		dynasty_names = {	Hormuzdai Asmaroi Amiroi Eshoi Haloi Arseenoi Yaloi
+										}
+}
+
+berber_group = {
+	graphical_culture = africangfx
+	
+	numidian = {
+
+	}
+	getuli = {
+
+	}
+	lybian = {
+
+	}
+	mauretanian  = {
+
+	}
+	
+	male_names = {	
+			Gala Massinissa Micipsa Adherbal Hiempsal Jugurtha Gauda Masteabar Arabion Juba Gaya
+			Awzal Aylal Azenkwed Cicungh Ikken Cucunq Mass Izri Zacfin Tacfin Ugwistan Usadden Uzza
+			Yuba Zaidren Tagwizult 
+	}
+	female_names = {
+			Illi Tafukt Tasa Tanirt Taylalt Tayri
+	}
+	dynasty_names = {
+			Galai Massinissae Hiepsai Gaudai Tacfinai Usaddai
+	}
+}	
+
+nilotic = {
+	graphical_culture = africangfx
+	kemetic = {
+		graphical_culture = muslimgfx
+		primary = EGP
+		male_names = {	
+			Ramsses Setnakhte Khaemwaset Amenhirkhepeshef Itamun Amenhirkhepeshef Ammeris Stephinates Nechepsos Necho Wahibre Wehemibre
+			Neferibre Haaibre Khnemibre Ankhkaenre Apries Psamtik Takhuit Khedebneithirbinet Mehytenweskhet Tentkheta Nakhtubasterau Manetho
+			Seka Khayu Tiu Thesh Neheb Wazner Mekh "Iry-Hor" Sekhen Serqer Narmer "Hor-Aha" Djer Djet Den Semerkhet "Qa'a" Sneferka Raneb Nynetjer Senedj Neferkara Hudjefa Djoser Sekhemkhet Sanakht Khaba Huni Sneferu Khufu Khafre Djdefre Menkaure Thamphtis Userkaf Sahure Neferefre Shepseskare Nyuserre Unas Teti "Dejkadre Shemai" Neferkare Merenhor Nikare Intef "Sankhkare Mentuhotep" Menkare Segerseni Senusret Nerikare Sonbef Sebkay Sobekhotep Dedumose Sheeshi Nehesy Sheneh Semenre Rahotep "Nebpehtire Ahmose" Amenhotep Thutmose  "Awybre Hor" Akhenaten Tutankhamun Ramesses Herihor Piankh Pinedjem Masaharta Menkheperre Smendes Pinedjem
+		}
+		female_names = {
+			Tyti Baketwernel Tentamun Nubkhesbed "Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti 
+		}
+		dynasty_names = {
+			Ramssesoi Itamunoi Ammeroi Nechoi Apriesoi Avaris Bubastis
+			Memphis Abydos Herakleopolis Itjtawy Sais Napatan
+		}
+	}
+	wasetic {
+		graphical_culture = muslimgfx
+		primary = THB
+		male_names = {	
+			Ramsses Setnakhte Khaemwaset Amenhirkhepeshef Itamun Amenhirkhepeshef Ammeris Stephinates Nechepsos Necho Wahibre Wehemibre
+			Neferibre Haaibre Khnemibre Ankhkaenre Apries Psamtik Takhuit Khedebneithirbinet Mehytenweskhet Tentkheta Nakhtubasterau Manetho
+			Seka Khayu Tiu Thesh Neheb Wazner Mekh "Iry-Hor" Sekhen Serqer Narmer "Hor-Aha" Djer Djet Den Semerkhet "Qa'a" Sneferka Raneb Nynetjer Senedj Neferkara Hudjefa Djoser Sekhemkhet Sanakht Khaba Huni Sneferu Khufu Khafre Djdefre Menkaure Thamphtis Userkaf Sahure Neferefre Shepseskare Nyuserre Unas Teti "Dejkadre Shemai" Neferkare Merenhor Nikare Intef "Sankhkare Mentuhotep" Menkare Segerseni Senusret Nerikare Sonbef Sebkay Sobekhotep Dedumose Sheeshi Nehesy Sheneh Semenre Rahotep "Nebpehtire Ahmose" Amenhotep Thutmose  "Awybre Hor" Akhenaten Tutankhamun Ramesses Herihor Piankh Pinedjem Masaharta Menkheperre Smendes Pinedjem
+		}
+		female_names = {
+			Tyti Baketwernel Tentamun Nubkhesbed "Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti 
+		}
+		dynasty_names = {
+			Ramssesoi Itamunoi Ammeroi Nechoi Apriesoi Thinis 
+			Memphis Abydos Herakleopolis Thebes Itjtawy Sais Napatan
+		}
+	}
+	acholi = {
+		dynasty_names = {
+			Senar
+			# CKII
+			"Bigawi" "Qamhat" "Hadendiwa" "Hadareb" "Beni-Amer" "Hadendoa"
+			"Hedareb" "Jarin" "Bisharin"
+		}
+		male_names = {
+			"'Amâra" "'Abd al-Qâdir" "Nâ'l" "Dakîn al-'Adil" "Dûra" "Taiyîb" "Unsa" "Adlân" "Bâdî" "Rubât" "Nûl" 
+			"Nâsir" "Ranfi" "Eltecit" "Joel" "Koudlaniel" "Isawi" "Hashim" "Maqdum" "Awkal" "Hassan" "Agban" 
+			"Abu Likayik" "Rajab" "Ahmad" "Rifaya" "Ibrahim" "Idris" "Tindhim" "'Abd al-Rahman" "Sulayman" "Yusuf" 
+			"Ya'qub" "Ismâ'îl" "Musa" "Muhammad" "Ishaq" "Halim" "Mustafa" "Abu Bakr" 
+			Aarôn Aaron Aberikos Abraam Abraham Añgelos Angelus Andreas Andrew Athanasios Balô 
+			Bartholomaios Bartholomew Birêl Chael Christophoros Dauid David Dimetheos Timothy
+			Dioskoros Diônisios Dionysus Eliezer Eionkouda Emmanouel Emmanuel Enôch Enoch Ephannê Epimachos 
+			Epiphanios Gabriel Gabriel Gabrielkouda Gabrielophorou Gennatios Gennadius
+			Geôrgios George Hêlias Elias Hoase Jesse Hoassi Jesse Hoasse Jesse Iacob Jacob Ieremias 
+			Jeremiah Iêsous Jesus Iêsousinkouda Iôannou Jonah Iôannês John Iordanes Jordanes Ioseph Joseph 
+			Kalinikos Kallinikios Kollouthos
+			Krisanthos Chrystanthos Kuriakos Kyriakos Kurillos Cyril Lazaros Lazarus Leon Leo Leontios 
+			Leontius Makarios Makarius Mariana Mariankouda Marianos Marianus Marios Marius Markos Marcus 
+			Marturophoros
+			Mašanñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
+			Michaêlkouda Mouses Moses Orna Panigiros Papasinen Papasinkouda Patrikios Patrick
+			Paulos Paul Petros Peter Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson 
+			Senouthios Sentiko Sergios Sergius Simeoni Simon Soizuros Solomôn Solomon Sotinkouda Stephanos 
+			Stephen
+			Stephanou Thadeosi Thaddeus Theodôros Theodore Theodosios Theodosius Theodote Theodat Thoma 
+			Thomas Tophêna Tirsakouni Zacharias Zachary Zosima Zosimus
+		}
+		female_names = {
+			Agathe Alethia Anthelia Athanasia Chaelsoñoja Chrissa Christina Douriko Egaloskoura Eikkir 
+			Eionmnne Eionñoka Eitou Elisabeth Elizabeth Eirena Eirene Eirota Eirotatouññlki
+			Entaeiri Eôneille Ephannê Epimachosi Eudosia Eudoxia Eulabia Eusebia Eustephanou Fatima 
+			Genseoua Hellene Helen Hemene Iannia Joan Iêsousyko Ioustina Justina Kel Kerike Kersiami Kettoudi
+			Keudonia Kurake Kyriake Maraña Maria Maria Mariam Maria Mariane Marianou Michaêliko Michaela 
+			Ñašša Ñeššadena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
+			Patricia Pelagia Gulzar Maram
+			Penatti Pesanthia Petronia Prisisilla Priscilla Rahimah Sophia Sousanna Staurophania Theobronia 
+			Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka
+		}
+	}
+	nubian = {
+		primary = NUB
+		
+		dynasty_names = {
+			Senar
+			# CKII
+			"Bigawi" "Qamhat" "Hadendiwa" "Hadareb" "Beni-Amer" "Hadendoa"
+			"Hedareb" "Jarin" "Bisharin"
+		}
+		male_names = {
+			"'Amâra" "'Abd al-Qâdir" "Nâ'l" "Dakîn al-'Adil" "Dûra" "Taiyîb" "Unsa" "Adlân" "Bâdî" "Rubât" "Nûl" 
+			"Nâsir" "Ranfi" "Eltecit" "Joel" "Koudlaniel" "Isawi" "Hashim" "Maqdum" "Awkal" "Hassan" "Agban" 
+			"Abu Likayik" "Rajab" "Ahmad" "Rifaya" "Ibrahim" "Idris" "Tindhim" "'Abd al-Rahman" "Sulayman" "Yusuf" 
+			"Ya'qub" "Ismâ'îl" "Musa" "Muhammad" "Ishaq" "Halim" "Mustafa" "Abu Bakr" 
+			Aarôn Aaron Aberikos Abraam Abraham Añgelos Angelus Andreas Andrew Athanasios Balô 
+			Bartholomaios Bartholomew Birêl Chael Christophoros Dauid David Dimetheos Timothy
+			Dioskoros Diônisios Dionysus Eliezer Eionkouda Emmanouel Emmanuel Enôch Enoch Ephannê Epimachos 
+			Epiphanios Gabriel Gabriel Gabrielkouda Gabrielophorou Gennatios Gennadius
+			Geôrgios George Hêlias Elias Hoase Jesse Hoassi Jesse Hoasse Jesse Iacob Jacob Ieremias 
+			Jeremiah Iêsous Jesus Iêsousinkouda Iôannou Jonah Iôannês John Iordanes Jordanes Ioseph Joseph 
+			Kalinikos Kallinikios Kollouthos
+			Krisanthos Chrystanthos Kuriakos Kyriakos Kurillos Cyril Lazaros Lazarus Leon Leo Leontios 
+			Leontius Makarios Makarius Mariana Mariankouda Marianos Marianus Marios Marius Markos Marcus 
+			Marturophoros
+			Mašanñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
+			Michaêlkouda Mouses Moses Orna Panigiros Papasinen Papasinkouda Patrikios Patrick
+			Paulos Paul Petros Peter Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson 
+			Senouthios Sentiko Sergios Sergius Simeoni Simon Soizuros Solomôn Solomon Sotinkouda Stephanos 
+			Stephen
+			Stephanou Thadeosi Thaddeus Theodôros Theodore Theodosios Theodosius Theodote Theodat Thoma 
+			Thomas Tophêna Tirsakouni Zacharias Zachary Zosima Zosimus
+		}
+		female_names = {
+			Agathe Alethia Anthelia Athanasia Chaelsoñoja Chrissa Christina Douriko Egaloskoura Eikkir 
+			Eionmnne Eionñoka Eitou Elisabeth Elizabeth Eirena Eirene Eirota Eirotatouññlki
+			Entaeiri Eôneille Ephannê Epimachosi Eudosia Eudoxia Eulabia Eusebia Eustephanou Fatima 
+			Genseoua Hellene Helen Hemene Iannia Joan Iêsousyko Ioustina Justina Kel Kerike Kersiami Kettoudi
+			Keudonia Kurake Kyriake Maraña Maria Maria Mariam Maria Mariane Marianou Michaêliko Michaela 
+			Ñašša Ñeššadena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
+			Patricia Pelagia Gulzar Maram
+			Penatti Pesanthia Petronia Prisisilla Priscilla Rahimah Sophia Sousanna Staurophania Theobronia 
+			Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka
+		}
+	}
+	beja = {
+		primary = BEJ
+		
+		dynasty_names = {
+			Senar
+			# CKII
+			"Bigawi" "Qamhat" "Hadendiwa" "Hadareb" "Beni-Amer" "Hadendoa"
+			"Hedareb" "Jarin" "Bisharin"
+		}
+		male_names = {
+			"'Amâra" "'Abd al-Qâdir" "Nâ'l" "Dakîn al-'Adil" "Dûra" "Taiyîb" "Unsa" "Adlân" "Bâdî" "Rubât" "Nûl" 
+			"Nâsir" "Ranfi" "Eltecit" "Joel" "Koudlaniel" "Isawi" "Hashim" "Maqdum" "Awkal" "Hassan" "Agban" 
+			"Abu Likayik" "Rajab" "Ahmad" "Rifaya" "Ibrahim" "Idris" "Tindhim" "'Abd al-Rahman" "Sulayman" "Yusuf" 
+			"Ya'qub" "Ismâ'îl" "Musa" "Muhammad" "Ishaq" "Halim" "Mustafa" "Abu Bakr" 
+			Aarôn Aaron Aberikos Abraam Abraham Añgelos Angelus Andreas Andrew Athanasios Balô 
+			Bartholomaios Bartholomew Birêl Chael Christophoros Dauid David Dimetheos Timothy
+			Dioskoros Diônisios Dionysus Eliezer Eionkouda Emmanouel Emmanuel Enôch Enoch Ephannê Epimachos 
+			Epiphanios Gabriel Gabriel Gabrielkouda Gabrielophorou Gennatios Gennadius
+			Geôrgios George Hêlias Elias Hoase Jesse Hoassi Jesse Hoasse Jesse Iacob Jacob Ieremias 
+			Jeremiah Iêsous Jesus Iêsousinkouda Iôannou Jonah Iôannês John Iordanes Jordanes Ioseph Joseph 
+			Kalinikos Kallinikios Kollouthos
+			Krisanthos Chrystanthos Kuriakos Kyriakos Kurillos Cyril Lazaros Lazarus Leon Leo Leontios 
+			Leontius Makarios Makarius Mariana Mariankouda Marianos Marianus Marios Marius Markos Marcus 
+			Marturophoros
+			Mašanñal Maththias Matthew Mêlênkouda Mena Menankouda Merkourios Mercurius Michaêl Michael 
+			Michaêlkouda Mouses Moses Orna Panigiros Papasinen Papasinkouda Patrikios Patrick
+			Paulos Paul Petros Peter Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson 
+			Senouthios Sentiko Sergios Sergius Simeoni Simon Soizuros Solomôn Solomon Sotinkouda Stephanos 
+			Stephen
+			Stephanou Thadeosi Thaddeus Theodôros Theodore Theodosios Theodosius Theodote Theodat Thoma 
+			Thomas Tophêna Tirsakouni Zacharias Zachary Zosima Zosimus
+		}
+		female_names = {
+			Agathe Alethia Anthelia Athanasia Chaelsoñoja Chrissa Christina Douriko Egaloskoura Eikkir 
+			Eionmnne Eionñoka Eitou Elisabeth Elizabeth Eirena Eirene Eirota Eirotatouññlki
+			Entaeiri Eôneille Ephannê Epimachosi Eudosia Eudoxia Eulabia Eusebia Eustephanou Fatima 
+			Genseoua Hellene Helen Hemene Iannia Joan Iêsousyko Ioustina Justina Kel Kerike Kersiami Kettoudi
+			Keudonia Kurake Kyriake Maraña Maria Maria Mariam Maria Mariane Marianou Michaêliko Michaela 
+			Ñašša Ñeššadena Ñejin Ñilesa Ñojjl Ñoltou Ñonne Ñonnen Ñouddl Ñssitkitol Ouarenô Patrikia 
+			Patricia Pelagia Gulzar Maram
+			Penatti Pesanthia Petronia Prisisilla Priscilla Rahimah Sophia Sousanna Staurophania Theobronia 
+			Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka
+		}
+	}
+	dynasty_names = {
+		Damat Purko Siria Napatan
+	}
+	male_names = {
+		Kapalei Koinet Leboo Lemaron Lemashon Lemayian Lembui 
+		Lolkerra Maitera Parneres Sabore Sankei Santamo Simel Sironka
+	}
+	female_names = {
+		Isina Lankenua Liloe Naimutiae Naipanoi Naisaruru Naisenya Naisiae
+		Nalutuesha Naramal Naserian Nataana Nkasiogi Peresian Pion Resson
+		Sankau Segeyian Semeyian Siatamei Simaloi Simu Sintamei Sopiato Tanei Terenua
+	}
+}
+
+semitic = {
+	graphical_culture = muslimgfx
+	aramean = {
+			primary = OSR
+			male_names = {	
+						Abdalonymus Abimiki Achololim Admago Agbal Anysus Arabo Asdrubal Astegal Baalhaan Bomilcar Boodes Bostar
+						Carthalo Eshmunazar Fierelus Fuabal Fuano Haggith Hamilax Hamilcar Hamiscora Hampsicora Hannibal Hanno Hannon
+						Hasdrubal Himilco Hiram Jabnit Kandaulo Luli Mago Maharbal Mapen Mathos Merbal Metallo Mintho Muttines Salicar
+						Shipitbaal Sirom Tendao Tetramnestus Zaracas Zinnridi
+			}
+			female_names = {
+						Ayzebel Dido Jezebel Similce Sophoniba Sophonisba Sophonisiba Yzebel
+			}
+			
+			dynasty_names = {
+							Barca Didonia Mago Hannonia
+			}
+	}
+	eblaite = {
+			male_names = {	
+						Abdalonymus Abimiki Achololim Admago Agbal Anysus Arabo Asdrubal Astegal Baalhaan Bomilcar Boodes Bostar
+						Carthalo Eshmunazar Fierelus Fuabal Fuano Haggith Hamilax Hamilcar Hamiscora Hampsicora Hannibal Hanno Hannon
+						Hasdrubal Himilco Hiram Jabnit Kandaulo Luli Mago Maharbal Mapen Mathos Merbal Metallo Mintho Muttines Salicar
+						Shipitbaal Sirom Tendao Tetramnestus Zaracas Zinnridi
+			}
+			female_names = {
+						Ayzebel Dido Jezebel Similce Sophoniba Sophonisba Sophonisiba Yzebel
+			}
+			
+			dynasty_names = {
+							Barca Didonia Mago Hannonia
+			}
+	}
+	palmyrian = {
+			primary = PLM
+			male_names = {	
+						Abdalonymus Abimiki Achololim Admago Agbal Anysus Arabo Asdrubal Astegal Baalhaan Bomilcar Boodes Bostar
+						Carthalo Eshmunazar Fierelus Fuabal Fuano Haggith Hamilax Hamilcar Hamiscora Hampsicora Hannibal Hanno Hannon
+						Hasdrubal Himilco Hiram Jabnit Kandaulo Luli Mago Maharbal Mapen Mathos Merbal Metallo Mintho Muttines Salicar
+						Shipitbaal Sirom Tendao Tetramnestus Zaracas Zinnridi
+			}
+			female_names = {
+						Ayzebel Dido Jezebel Similce Sophoniba Sophonisba Sophonisiba Yzebel
+			}
+			
+			dynasty_names = {
+							"of Palmyra"
+			}
+	}
+	israelites = {
+					male_names = {		Reuben Simeon Levi Judah Issachar Zebulun Joseph Benjamin Dan Naphtali Gad Asher David
+										Jacob Jethro Moses Aaron Noah Shem Ham Japheth Terah Abram Nahor Haran Ishmeal Zimran 
+										Jokshan Medan Midian Ishbak Kesed Hazo Jidlaph Bethuel Buz Uz Kesed Kemuel Milcah 
+										Lot Moab Isaac Esau Eliphaz Amalek Amnon Chileab Absalom Shephatiah Itheam Shobab Nathan
+										Ibhar Nepheg Japhia Eliada Saul Solomon Jesse Simri
+										}	
+					female_names = {	Leah Rachel Bilhah Zilpah Sarah Rebekah
+										}
+					dynasty_names = {	Reubenoi Levai Judahai Josephai Benjaminoi Davidoi Jacobi Aaronoi Jehu Omri Simri
+										}
+	}
+	philistian = {
+					male_names = {		Reuben Simeon Levi Judah Issachar Zebulun Joseph Benjamin Dan Naphtali Gad Asher David
+										Jacob Jethro Moses Aaron Noah Shem Ham Japheth Terah Abram Nahor Haran Ishmeal Zimran 
+										Jokshan Medan Midian Ishbak Kesed Hazo Jidlaph Bethuel Buz Uz Kesed Kemuel Milcah 
+										Lot Moab Isaac Esau Eliphaz Amalek Amnon Chileab Absalom Shephatiah Itheam Shobab Nathan
+										Ibhar Nepheg Japhia Eliada Saul Solomon Jesse
+										}	
+					female_names = {	Leah Rachel Bilhah Zilpah Sarah Rebekah
+										}
+					dynasty_names = {	Reubenoi Levai Judahai Josephai Benjaminoi Davidoi Jacobi Aaronoi
+										}
+	}
+	phoenician = {
+		primary = PHO
+		male_names = {	
+					Abdalonymus Abimiki Achololim Admago Agbal Anysus Arabo Asdrubal Astegal Baalhaan Bomilcar Boodes Bostar
+					Carthalo Eshmunazar Fierelus Fuabal Fuano Haggith Hamilax Hamilcar Hamiscora Hampsicora Hannibal Hanno Hannon
+					Hasdrubal Himilco Hiram Jabnit Kandaulo Luli Mago Maharbal Mapen Mathos Merbal Metallo Mintho Muttines Salicar
+					Shipitbaal Sirom Tendao Tetramnestus Zaracas Zinnridi
+		}
+		female_names = {
+					Ayzebel Dido Jezebel Similce Sophoniba Sophonisba Sophonisiba Yzebel
+		}
+		
+		dynasty_names = {
+						Barca Didonia Mago Hannonia
+		}
+	}
+	punic = {
+		primary = CAR
+		male_names = {	
+					Abdalonymus Abimiki Achololim Admago Agbal Anysus Arabo Asdrubal Astegal Baalhaan Bomilcar Boodes Bostar
+					Carthalo Eshmunazar Fierelus Fuabal Fuano Haggith Hamilax Hamilcar Hamiscora Hampsicora Hannibal Hanno Hannon
+					Hasdrubal Himilco Hiram Jabnit Kandaulo Luli Mago Maharbal Mapen Mathos Merbal Metallo Mintho Muttines Salicar
+					Shipitbaal Sirom Tendao Tetramnestus Zaracas Zinnridi
+		}
+		female_names = {
+					Ayzebel Dido Jezebel Similce Sophoniba Sophonisba Sophonisiba Yzebel
+		}
+		
+		dynasty_names = {
+						Barca Didonia Mago Hannonia
+		}
+	}
+	ibero_phoenician = {
+		male_names = {	
+					Abdalonymus Abimiki Achololim Admago Agbal Anysus Arabo Asdrubal Astegal Baalhaan Bomilcar Boodes Bostar
+					Carthalo Eshmunazar Fierelus Fuabal Fuano Haggith Hamilax Hamilcar Hamiscora Hampsicora Hannibal Hanno Hannon
+					Hasdrubal Himilco Hiram Jabnit Kandaulo Luli Mago Maharbal Mapen Mathos Merbal Metallo Mintho Muttines Salicar
+					Shipitbaal Sirom Tendao Tetramnestus Zaracas Zinnridi
+					Abadutiker Abaraban Abargitibasar Ablon Aibekeres Alorildui Alucio Arbiskar
+					Bagarok Bailar Balceadin Balkar Babpo Binturke Biurbetin Boutintibas Buntalos Busadines Caikonbe
+					Cesaro Edecon Edereta Eterindu Gargoris Habis Iceatin Ieorbeles Indo Iscerebeles Katulatin
+					Korbis Korribilo Lagunas Luxino Mandonio Nisunin Nabarsosin Orison Orisos Sakabik Selgiterar Situbolai
+					Sosain Sosinbiuru Talskubilos Teitebas Tibaste Ultidikan Unibelos Urcetices
+		}
+		female_names = {
+					Ayzebel Dido Jezebel Similce Sophoniba Sophonisba Sophonisiba Yzebel
+		}
+		
+		dynasty_names = {
+						Barca Didonia Mago Hannonia
+		}
+	}
+	
+	
+	male_names = {	}	
+	female_names = {	}
+	dynasty_names = {	}	
+}
+
+old_greek_group = {	
+	graphical_culture = easterngfx
+	old_greek = {
+		dynasty_names = {
+			Agiadai Eurypontidai Atreidai Lacedaemonidai Melanthidai Dionysii Deinomenidai Hieronidai Alcmaeonidae Peisistratidae
+		}
+	}
+	old_pontic_greek = {
+		dynasty_names = {
+			Arsakai Mithriadatai Pithodoridai Heraclidae Lacedaemonidai
+		}
+		male_names = {	
+			Diogenes Bion Heraclides Strabo Philetaerus Mithridates Memnon Marcion Aquila Evagrius Athanasius 
+			Ariobarzanes Pharnakes Dareios Arsakes Polemon Pythordoris Clearchus Dionysius Oxyathres
+		}
+		female_names = {
+			Olympias Deidamia Antonia Amastrine
+		}
+	}
+	cappadocian = {
+	}
+	cimmerian_greek = {
+		dynasty_names = {
+			Spartocidai Satyrai Leuconai Prytanoi "of Agri" "of Arrechi" "of Aspurgianoi" "of Dandarioi" "of Doscai" 
+			"of Maiotai" "of Obidiacenoi" "of Psessoi" "of Sindoi" "of Sittacenoi" "of Tarpetes" "of Toretai"
+		}
+	}
+	italiote = {
+		dynasty_names = {
+			Agiadai Eurypontidai Atreidai Lacedaemonidai Melanthidai Dionysii Deinomenidai Hieronidai
+		}
+	}
+	kyrenaikian = {
+		dynasty_names = {
+			Battiadai Hieronidai "of Kyrene"
+		}
+	}
+	massaliote = {
+		dynasty_names = {
+			Agiadai Eurypontidai Atreidai Lacedaemonidai Melanthidai Dionysii Deinomenidai Hieronidai
+		}
+	}
+	greco_indian = {
+		primary = IGR
+		dynasty_names = {
+			Diodotid Argeadai Antipatridai Antigonidai Stasanid Agiadai Eurypontidai Atreidai Lacedaemonidai Melanthidai 
+			Dionysii Deinomenidai Hieronidai
+		}			
+		male_names = {	
+			Aristonous Arybbas Balacrus Demetrius Hephaestion Leonnatus Lysmachus Menes Pausanias
+			Peithon Peucestas Ptolemy Philotas Cleitus Sopolis Heraclides Peroidas Socrates Pantordanus
+			Hegelochus Calas Philip Agathon Parmenion Attalus Seleucus Coenus Craterus Gorgias Meleager Menander
+			Polyperchon Simmias Proteas Nearchus Amphoterus Eudemus Iollas Lagus Nicanor Polemon Teutamus Tlepolemus
+			Alexander Archelaos Bubalus Lampos Belistiche Adaios Antipater Alexarchus Leon Marsyas Amerias Oikiades Samus
+			Epigonus Archias Perses Stobaeus Criton Macedonius Parmenion Evander Herophon Adymus Menelaus
+		}	
+		female_names = {
+			Berenike Cleopatra Stratonice Laodice Tryphaena
+		}
+	}
+	greco_bactrian = {
+		dynasty_names = {
+			Diodotid Argeadai Antipatridai Antigonidai Stasanid Agiadai Eurypontidai Atreidai Lacedaemonidai Melanthidai 
+			Dionysii Deinomenidai Hieronidai
+		}			
+		male_names = {	
+			Aristonous Arybbas Balacrus Demetrius Hephaestion Leonnatus Lysmachus Menes Pausanias
+			Peithon Peucestas Ptolemy Philotas Cleitus Sopolis Heraclides Peroidas Socrates Pantordanus
+			Hegelochus Calas Philip Agathon Parmenion Attalus Seleucus Coenus Craterus Gorgias Meleager Menander
+			Polyperchon Simmias Proteas Nearchus Amphoterus Eudemus Iollas Lagus Nicanor Polemon Teutamus Tlepolemus
+			Alexander Archelaos Bubalus Lampos Belistiche Adaios Antipater Alexarchus Leon Marsyas Amerias Oikiades Samus
+			Epigonus Archias Perses Stobaeus Criton Macedonius Parmenion Evander Herophon Adymus Menelaus
+		}	
+		female_names = {
+			Berenike Cleopatra Stratonice Laodice Tryphaena
+		}		
+	}
+	greco_persian = {
+		dynasty_names = {
+			Argeadai Antipatridai Antigonidai Seleucidae Agiadai Eurypontidai Atreidai Lacedaemonidai Melanthidai Dionysii 
+			Deinomenidai Hieronidai
+		}			
+		male_names = {	
+			Aristonous Arybbas Balacrus Demetrius Hephaestion Leonnatus Lysmachus Menes Pausanias
+			Peithon Peucestas Ptolemy Philotas Cleitus Sopolis Heraclides Peroidas Socrates Pantordanus
+			Hegelochus Calas Philip Agathon Parmenion Attalus Seleucus Coenus Craterus Gorgias Meleager Menander
+			Polyperchon Simmias Proteas Nearchus Amphoterus Eudemus Iollas Lagus Nicanor Polemon Teutamus Tlepolemus
+			Alexander Archelaos Bubalus Lampos Belistiche Adaios Antipater Alexarchus Leon Marsyas Amerias Oikiades Samus
+			Epigonus Archias Perses Stobaeus Criton Macedonius Parmenion Evander Herophon Adymus Menelaus
+		}	
+		female_names = {
+			Berenike Cleopatra Stratonice Laodice Tryphaena
+		}
+	}
+	greco_semitic = {
+		dynasty_names = {
+			Argeadai Antipatridai Antigonidai Seleucidae Agiadai Eurypontidai Atreidai Lacedaemonidai Melanthidai Dionysii 
+			Deinomenidai Hieronidai
+		}			
+		male_names = {	
+			Aristonous Arybbas Balacrus Demetrius Hephaestion Leonnatus Lysmachus Menes Pausanias
+			Peithon Peucestas Ptolemy Philotas Cleitus Sopolis Heraclides Peroidas Socrates Pantordanus
+			Hegelochus Calas Philip Agathon Parmenion Attalus Seleucus Coenus Craterus Gorgias Meleager Menander
+			Polyperchon Simmias Proteas Nearchus Amphoterus Eudemus Iollas Lagus Nicanor Polemon Teutamus Tlepolemus
+			Alexander Archelaos Bubalus Lampos Belistiche Adaios Antipater Alexarchus Leon Marsyas Amerias Oikiades Samus
+			Epigonus Archias Perses Stobaeus Criton Macedonius Parmenion Evander Herophon Adymus Menelaus
+		}	
+		female_names = {
+			Berenike Cleopatra Stratonice Laodice Tryphaena
+		}
+	}
+	greco_babylonian = {
+		dynasty_names = {
+			Argeadai Antipatridai Antigonidai Seleucidae Agiadai Eurypontidai Atreidai Lacedaemonidai Melanthidai Dionysii 
+			Deinomenidai Hieronidai
+		}			
+		male_names = {	
+			Aristonous Arybbas Balacrus Demetrius Hephaestion Leonnatus Lysmachus Menes Pausanias
+			Peithon Peucestas Ptolemy Philotas Cleitus Sopolis Heraclides Peroidas Socrates Pantordanus
+			Hegelochus Calas Philip Agathon Parmenion Attalus Seleucus Coenus Craterus Gorgias Meleager Menander
+			Polyperchon Simmias Proteas Nearchus Amphoterus Eudemus Iollas Lagus Nicanor Polemon Teutamus Tlepolemus
+			Alexander Archelaos Bubalus Lampos Belistiche Adaios Antipater Alexarchus Leon Marsyas Amerias Oikiades Samus
+			Epigonus Archias Perses Stobaeus Criton Macedonius Parmenion Evander Herophon Adymus Menelaus
+		}	
+		female_names = {
+			Berenike Cleopatra Stratonice Laodice Tryphaena
+		}
+	}
+	greco_egyptian = {
+		dynasty_names = {
+			Argeadai Antipatridai Antigonidai Ptolemaioi Agiadai Eurypontidai Atreidai Lacedaemonidai Melanthidai Dionysii 
+			Deinomenidai Hieronidai
+		}
+		male_names = {	
+			Aristonous Arybbas Balacrus Demetrius Hephaestion Leonnatus Lysmachus Menes Pausanias
+			Peithon Peucestas Ptolemy Philotas Cleitus Sopolis Heraclides Peroidas Socrates Pantordanus
+			Hegelochus Calas Philip Agathon Parmenion Attalus Seleucus Coenus Craterus Gorgias Meleager Menander
+			Polyperchon Simmias Proteas Nearchus Amphoterus Eudemus Iollas Lagus Nicanor Polemon Teutamus Tlepolemus
+			Alexander Archelaos Bubalus Lampos Belistiche Adaios Antipater Alexarchus Leon Marsyas Amerias Oikiades Samus
+			Epigonus Archias Perses Stobaeus Criton Macedonius Parmenion Evander Herophon Adymus Menelaus
+		}
+		female_names = {
+			Berenike Cleopatra 
+		}		
+	}
+	male_names = {	
+			Abantes Abas Abascantus Abreas Acestes Adeimanthos Adelphius Ademetos Adrastos Aeaces Aegaeon Aegicoros
+			Aegon Adrastus Aesepus Aetios Agastrophos Agetos Airopos Aigeus Alcinous Alcmaion Alexandros Aleuas Alkiphron
+			Altes Alphios Alkmaion Amompharetos Amphimnestus Amphinomous Amyntor Alexias Alexarchos Alexander Aloeus Alphaeus
+			Anytos Anytus Apollodoros Apollophanes Atrometos Athenades Athenaeus Asopodoros Asteropaeus Athenaeus Attaginos
+			Bacis Baerius Balius Barates Basilides Bathyaes Belos Biton Bisaltes Boter Borus Bulis Burrhus Butacidas Belos
+			Bendis Bianor Boethus Brygos Brison Butacidas Bacchios Bacchylides Bacenor Bucoli Bulis Briareus Burrhus 
+			Carenos Carneades Carpophorus Celas Cebriones Ceas Chaeremon Choeros Choerilos Cilix Cineas Chryses Chremes
+			Coeranus Cordylion Copreus Cöon Codros Crios Croesus Cronos Cylon Cycnus Cyniscus Cyrenios Cois Conon Cobon Clinias
+			Chromis Chilon Charmides Charillos Chileos Chrysogones Cisses Cnoethos Crethon Ctesippus Cyncus Cyneas Cuphagoras
+			Daetor Damasippus Damasithymos Damoetas Dardanus Daphnis Daphis Deinokrates Deinomenes Deiotones Demarmenos
+			Democedes Demonous Demophlos Demosthenes Deon Diactorides Dexios Dieneces Dicaeus Diocles Dionysophanes Diotrephes
+			Dolops Doreios Doreius Duris Demeas Deiphonous Davos Danaos Damian Daedalos Dadaces Deinias Deipylus Demetrios Deukalion
+			Echekrates Echelaos Echemmon Eioneus Elephenor Eleon Endios Empedocles Ennomus Ennychus Enops Epiphanes Eratosthenes 
+			Euaemon Erysichton Euhemenis Euippus Eukles Euenus Eumolpus Euphorbos Euryanax Eurybates Eutychus Evaenetos Evelthon Evenus Evios
+			Hagnon Halisthertes Halius Harpalion Harpagos Harmon Hegesandros Hegesistratos Helicaon Herakleitos Herakleides Hephaestos 
+			Hero Herodes Herodianus Hiero Hieronymus Hippoklides Hippokratiedes Hippon Hipponax Hippotion Hioples Homeros Hyllus Hypatius
+			Hermon Helios Helle Hermeros Hermotimos Hippias Hyllos Hyperion Hermeias Hippasus Hagias Harmodios Hecataeus Hektor
+			Iambulus Iamus Iasos Iatragoras Icarus Icarius Icarion Ibykos Idas Imbrus Inachos Inachus Ion Iolaos Iphitos Iphitus Isocrates
+			Iakchos Ialmenes Idaios Ilus Idaeus Iobates Iphikrates Isagoras Ismaros Itylus Itheus Ision Irus Iphicrates Itheus
+			Kaletor Kalliaros Kallias Kandaules Karopophores Kasos Kassandros Kephalon Kimon Keos Kekrops Keteus Kleomenes Kosmas Krantor
+			Labdacus Labotas Lampon Lampus Laphanes Learchos Leodes Leonidas Leo Leagros Laogonus Leonitiades Leontis Lemnus Laodocus Lycophron
+			Loxias Lukus Lycophon Lysanios Lygdamis Lysias Lysis Leucippus Lamachos Lagos Lasos Leicritus Leon Leotychides Linus
+			Macarias Machaon Maeon Maron Marsyas Mastor Medus Medon Medios Megakreon Melanthos Melas Menalcas Menandros Menesthes Menestas Mentes 
+			Metron Metrophanes Mikon Mikkos Mnasyllus Mnesiphilos Mnester Monomachus Monoecus Morys Moschion Mulius Myrto Myrsinus Mygdon
+			Naubolus Naukles Nausithous Neoptolemos Neokles Nelpus Nicandros Kikias Nikomachos Nomion Noemon Nisos Nymphicus Nymphodrorus 
+			Odaenathus Odius Odysseus Oenomaus Olus Oliatos Onesilos Onomastos Ophelestes Opites Ops Orges Oresus Orpheus Orsilchus Otus
+			Paios Pallans Pallas Palmys Panares Pandaros Pantites Parthenopaeus Patron Peiros Pelias Pentheus Periclymenus Periandros Perdix
+			Pedocles Patrobus Parmenion Panthous Pantares Peukestes Peteos Periphas Perikles Perieeres Penthylos Paios Palaechthon Palaemon Panaetius
+			Pharnaces Phausius Phaestus Periumus Philoetius Philomen Philostratos Philopoemon Philpoemon Phoenix Phoibus Phorbas Phorcys
+			Priam Pratinos Praxilaus Prinetadas Prokopios Prothous Ptolemaios Pylas Pythes Pythagoras Pytheas Pylaeus Prymneus Pyrrhus Pyris
+			Ribes Rizon Sabas Sabyllos Scamandius Scaios Scythas Scyllias Sicinnos Simonides Skiron Sisyphus Siromos Sophanes Sosilus Sosimenes
+			Speudon Speritas Sostratos Stichius Stolos Strabo Strymon Straton Stachys Sostratos Sosthenes Sinon Syennesis Syagros Stratios
+			Tenes Temenos Elys Terillos Teucer Teukros Tharybis Theas Theasides Theodotus Theodoros Theodekles Thero Theron Theras
+			Thersites Thorax Thrasidaios Thrasilaus Thyrsos Thyrsis Thymotes Timasion Timasitheus Timoxenos Tisias Tisandros Timon Timonax
+			Vettias Xanthippos Xanthippus Xanthos Xenophon Zagreus Zamolxis Zeuxis Zosimus	
+		}
+		female_names = {
+			Achaia Achradina Agape Agapia Alcippe Alcmene Althea Althaia Amphitrite Antehe Anteia Arete Apseudes
+			Barbara Basiane Baucis Berenike Canace Caenis Caleope Callianeira Callianessa Chione Charis Slio Clymene
+			Damia Delias Demophile Doris Dirce Dione Dynamene Egeria Egina Endeis Eriopis Euodias Eurynome Glyke Gorgo
+			Harmonia Hecuba Hekabe Hellanike Heliodora Helike Hesione Hyrmina Hypsipyle Hippolyta Ianthe Ino Iola Ione
+			Irene Iris Iphigenia Isadora Kallisto Kallixeina Kassandra Kleio Kleopatra Klymene Klytemnestra Kore Koritto
+			Leda Latona Lanike Lasthena Maia Maianria Marpessa Melanie Megare Melite Milto Neaera Nemerte Nikaia Oitane Olympias
+			Orthia Otonia Pales Pelopia Periboea Pasiphae Parthenope Pervica Phaedra Phoebe Phylo Polydora Polymede Polyxena
+			Raisa Rhea Sappho Roxane Rhodope Sophia Sotera Speio Thais Thalassa Thaleia Thebe Theophano Xene Zoe Zita Tyro Thyia
+		}
+	dynasty_names = {
+		
+		
+	}
+}
+
+anatolian = {
+	graphical_culture = easterngfx
+	
+	lycian = {
+		primary = LYC
+	}
+	lydian = {
+		primary = LYD
+	}
+	bithynian  = {
+		primary = BIT
+		male_names = {	
+						Rhaskuporis Orpheus Emolpos Maron Spartacus Sosias Thukydides Antisthenes Rhoimetlkes 
+						Rhaskos Kotys Rhaskuporis Sadales Teres Amatokos Zibelmios Barsabas Diedylis Charaspes
+						Lysimachos Arsinoe Kavaros Skostokos Seuthes Syrmos Patraios Theres Kersebleptes Berisades
+						Maisades Medokos Sitalkes Sparadokos Oloros
+		}
+		female_names = {	
+						Elpinike Hegesipyle
+		}
+		dynasty_names = {	
+						Rhaskuporae Emolpoe Maroi Spartacusae Sosiai Antisthenea Rhaskoi Kotyai Sadalae Terai Teresae Zibelmoi
+						Diedyloi Charaspesoi Lysimachoi Lysimachai Kavaroi Seuthoi Syrmoi Patraoi Theroi Kersebleptoi 
+		}
+	}
+	phrygian  = {
+		primary = PHR
+		male_names = {	
+						Rhaskuporis Orpheus Emolpos Maron Spartacus Sosias Thukydides Antisthenes Rhoimetlkes 
+						Rhaskos Kotys Rhaskuporis Sadales Teres Amatokos Zibelmios Barsabas Diedylis Charaspes
+						Lysimachos Arsinoe Kavaros Skostokos Seuthes Syrmos Patraios Theres Kersebleptes Berisades
+						Maisades Medokos Sitalkes Sparadokos Oloros
+		}
+		female_names = {	
+						Elpinike Hegesipyle
+		}
+		dynasty_names = {	
+						Rhaskuporae Emolpoe Maroi Spartacusae Sosiai Antisthenea Rhaskoi Kotyai Sadalae Terai Teresae Zibelmoi
+						Diedyloi Charaspesoi Lysimachoi Lysimachai Kavaroi Seuthoi Syrmoi Patraoi Theroi Kersebleptoi 
+		}
+	}
+	kilikian  = {
+		primary = KIL
+	}
+	kappadokian  = {
+		primary = KPP
+	}
+	anatolian_pontic  = {
+		primary = PON
+	}
+	hittite = {
+		male_names = {	
+					Pamba Pithana Piyusti Anitta Tudhaliya Labarna Hattusili Mursili Hantili Zidanta Ammuna Huzziya Telipinus
+					Alluwamna Tahurwaili Muwatalli Arnuwanda Suppiluliuma Kurunta  
+		}
+	
+		dynasty_names = {
+					"of Hatti" "of Kussara" "of Hattusa"
+		}
+	}
+	
+	male_names = {	
+					Car Lyndus Mysus Atys Nastes Amphimachos Nomion Dares Mycale Tantalus Pelops Broteas 
+					Gyges Ardys Alyattes Croesus Sadyattes Meles Candaules Agron Tantalus Omphale Timolus
+					Manes 
+		}
+		
+	female_names = {
+					Niobe Dione Mysia Atyia Arachne
+	}
+	
+	dynasty_names = {
+					Caria Atyad Tylonid Mermnad Croesiad Meliad Caroi Lyndae Darae Agroi Pelopai Melae Gygeoi
+	}
+	
+}

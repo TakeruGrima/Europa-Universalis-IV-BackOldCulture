@@ -1,0 +1,63 @@
+#Iranian
+
+KHS = "countries/Khshassa.txt"
+PAS = "countries/Pars.txt"
+SOG = "countries/Sogdia.txt"
+PRS = "countries/Parthava.txt"
+ATP = "countries/Atropatene.txt"
+PRT = "countries/Parthia.txt"
+BAC = "countries/Bactria.txt"
+ERA = "countries/Eranshahr.txt"
+ARC = "countries/Arachosia.txt"
+LRS = "countries/Luristan.txt"
+MDA = "countries/Media.txt"	
+MKR = "countries/Makran.txt"	
+HYR = "countries/Hyrcania.txt"	
+
+#North-Iranian
+ALA = "countries/Alania.txt"
+SRM = "countries/Sarmatia.txt"
+DHS = "countries/Dahistan.txt"
+KWZ = "countries/Khwarezmia.txt"	
+MAS = "countries/Massagetae.txt"
+
+#Akkadian
+
+BAB = "countries/Babylon.txt"
+ASY = "countries/Assyria.txt"
+ELM = "countries/Elam.txt"
+
+#Caucasian
+EAR = "countries/Armenian Empire.txt"
+
+#Berber
+
+LYB = "countries/Lybia.txt"
+BNU = "countries/Numidia.txt"
+MAU = "countries/Mauretania.txt"
+GET = "countries/Getulia.txt"
+
+#Nilotic
+
+MEO = "countries/Kush.txt"
+EGP = "countries/Old_Egypt.txt"
+
+#Semitic
+
+OSR = "countries/Osroene.txt"
+PHO = "countries/Phoenicia.txt"
+SRA = "countries/Aram.txt"
+EBL = "countries/Ebla.txt"
+PLM = "countries/Palmyra.txt"
+ISR = "countries/Israel.txt"
+CAE = "countries/Carthago.txt"
+
+#Indian
+
+BMA = "countries/Magadha.txt"
+
+#Old-Greek
+IGR = "countries/Greco-India.txt"
+
+#Anatolian
+LYC = "countries/Lycia.txt"

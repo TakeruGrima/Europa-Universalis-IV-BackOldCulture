@@ -1,0 +1,67 @@
+#####Persia#####
+
+411 = Mépsila 			#Mosul
+413 = Susa			#Khorramabad
+414 = Hangmetana 		#Hamadan
+415 = Shahrizor
+416 = Tabriz
+417 = Daylam 			#Gilan
+424 = Artavila 			#Ardabil
+426 = Mazandaran
+428 = Rhaga			#Teheran
+429 = Gabae			#Isfahan
+430 = Rishahr			#Dashtistan	
+431 = Hormirzad			#Mogostan
+432 = Karmanâ			#Kerman
+433 = Ysatis			#Yazd
+2206 = Gilzan			#Urmia
+2207 = Ganzak 			#Maragheh
+2210 = Bagastana		#Kirmanshah
+2211 = Garrus 			#Ardalan
+2112 = Khamseh			#Zanjan
+2213 = Saavakineh		#Markazi
+2214 = Varkana			#Golestan
+2215 = Mada 			#Qazvin
+2216 = Semnan
+2217 = Yasuj
+2218 = Parsa			#Shiraz
+2219 = Bandar Langeh
+2220 = Bam
+2222 = Ardakan
+2223 = Lad			#Larestan
+2234 = Rafsajan
+2999 = Hormuz
+4171 = Pasargad			#Abarquh
+
+#####Khorasan#####
+
+427 = Saddarvazeh 		#Qumis
+434 = Quhistan
+435 = Zaranj
+436 = Birjand
+444 = Charjuy
+445 = Merv
+446 = Herat
+447 = Kandahar
+448 = Gazni
+449 = Ghor
+450 = Balkh
+451 = Kabul
+452 = Badakshan
+575 = Gwadar
+576 = Kalat
+577 = Quetta
+578 = Gandhara			#Roh			
+2221 = Mashhad
+2224 = Ferah
+2226 = Jalalabad
+2227 = Kunduz
+2228 = Maymana
+2229 = Bust
+2230 = Chagai
+2231 = Bela
+2232 = Kharan
+2233 = Chabahar
+2235 = Sabzevar
+2236 = Bojnord
+2350 = Konjikala
