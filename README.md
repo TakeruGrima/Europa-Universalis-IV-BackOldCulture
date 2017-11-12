@@ -1,2 +1,4 @@
 # Europa-Universalis-IV-BackOldCulture
-A mod of Europa Universalis IV http://steamcommunity.com/sharedfiles/filedetails/?id=877119163
+Project date: 5th march 2017  
+This project is a mod of Europa Universalis IV release on steam workshop see here : 
+http://steamcommunity.com/sharedfiles/filedetails/?id=877119163
