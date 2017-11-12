@@ -1,0 +1,80 @@
+﻿l_english:
+
+#Iranian
+achaemenid:0 "Iranian"
+oldpersian:0 "Persian"
+mede:0 "Mede"
+bactrian:0 "Bactrian"
+gedrosian:0 "Gedrosian"
+hyrcanian:0 "Hyrcanian"
+azari:0 "Azeri"
+oldparthian:0 "Parthian"
+sogdian:0 "Sogdian"
+arachosian:0 "Arachosian"
+khwarezmian:0 "Khwarezmian"
+dahaean:0 "Dahaean"
+luri:0 "Luri"
+alan:0 "Alan"
+sarmatian:0 "Sarmatian"
+
+#Steppe-people
+steppe_people:0 "Steppe-people"
+scythian:0 "Scythian"
+massagetean:0 "Massagetean"
+indo-scythian:0 "Indo-Scythian"
+
+#Akkadian
+akkadian_group:0 "Akkadian"
+assyrian:0 "Assyrian"
+babylonian:0 "Babylonian"
+elamite:0 "Elamite"
+
+#Nilotic
+nilotic:0 "Nilotic"
+kemetic:0 "Kemetic"
+wasetic:0 "Wasetic"
+
+#Berber
+berber_group:0 "Berber"
+numidian:0 "Numidian"
+getuli:0 "Getuli"
+lybian:0 "Lybian"
+mauretanian:0 "Mauretanian"
+
+#Semitic (old people of Syria)
+semitic:0 "Semitic"
+aramean:0 "Aramean"
+palmyrian:0 "Palmyrian"
+israelites:0 "Israelite"
+philistian:0 "Philistian"
+phoenician:0 "Phoenician"
+eblaite:0 "Eblaïte"
+punic:0 "Punic"
+ibero_phoenician:0 "Ibero-Phoenician"
+
+#Old_greek
+old_greek_group:0 "Hellenic"
+old_greek:0 "Hellenic"
+old_pontic_greek:0 "Old-pontic"
+cimmerian_greek:0 "Cimmerian Greek"
+massaliote:0 "Massaliote"
+kyrenaikian:0 "Kyrenaikian"
+italiote:0 "Italiote"
+cappadocian:0 "Cappadocian"
+greco_indian:0 "Greco-Indian"
+greco_bactrian:0 "Greco-Bactrian"
+greco_persian:0 "Greco-Persian"
+greco_semitic:0 "Greco-Semitic"
+greco_babylonian:0 "Greco-Babylonian"
+greco_egyptian:0 "Greco-Egyptian"
+
+#Anatolian
+anatolian:0 "Anatolian"
+lycian:0 "Lycian"
+lydian:0 "Lydian"
+bithynian:0 "Bithynian"
+phrygian:0 "Phrygian"
+kilikian:0 "Kilikian"
+kappadokian:0 "Kappadokian"
+anatolian_pontic:0 "Anatolian-Pontic"
+hittite:0 "Hittite"

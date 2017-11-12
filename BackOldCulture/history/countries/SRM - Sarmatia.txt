@@ -1,0 +1,6 @@
+government = despotic_monarchy
+mercantilism = 0.1
+technology_group = muslim
+religion = orthodox
+primary_culture = sarmatian
+capital = 288	#Lower Don

@@ -1,0 +1,95 @@
+old_strat_semitic_phoenicia_mission = {
+	
+	type = country
+	category = MIL
+	
+	target_provinces = {
+		OR = {
+			province_id = 1855
+			province_id = 378
+		}
+	}
+	allow = {
+		has_country_flag = old_flag_sea_people
+		
+		is_subject = no
+		
+		OR = {	
+			1855 = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { is_subject_of = ROOT } }
+				NOT = { owner = { alliance_with = ROOT } }			
+			}
+			378 = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { is_subject_of = ROOT } }
+				NOT = { owner = { alliance_with = ROOT } }			
+			}
+		}
+		OR = {
+			1855 = { any_neighbor_province = { owned_by = ROOT } }	
+			378 = { any_neighbor_province = { owned_by = ROOT } }
+			163 = {
+				owned_by = ROOT
+				owner = { is_subject_of = ROOT }
+			}
+		}	
+	}
+	abort = {
+		is_subject = yes
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 1000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = FROM value = 0 } }
+		}	
+		modifier = {
+			factor = 1.5
+			capital_scope = {
+				culture = FROM
+			}
+		}
+		modifier = {
+			factor = 1.5
+			capital_scope = {
+				religion = FROM
+			}
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { mil = 3 }
+		}
+		modifier = {
+			factor = 0.5
+			truce_with = FROM
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { NOT = { mil = 2 } }
+		}		
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		every_target_province = {
+			add_province_modifier = {
+				name = "faster_integration"
+				duration = 3650
+			}
+		}
+	}
+}

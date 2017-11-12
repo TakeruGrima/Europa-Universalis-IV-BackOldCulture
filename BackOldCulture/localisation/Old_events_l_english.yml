@@ -1,0 +1,80 @@
+﻿l_english:
+#########################################################
+# Culture Events
+#########################################################
+achculture.1.t:0 "Restore the ancient culture of the Persians"
+achculture.2.t:0 "Restore the ancient culture of the Medes"
+achculture.3.t:0 "Restore the ancient culture of the Gedrosians"
+achculture.4.t:0 "Restore the ancient culture of the Bactrians"
+achculture.5.t:0 "Restore the ancient culture of the Hyrcanians"
+achculture.6.t:0 "Restore the ancient culture of the Parthians"
+achculture.7.t:0 "Restore the ancient culture of the Azeries"
+achculture.8.t:0 "Restore the ancient culture of the Sogdians"
+achculture.9.t:0 "Restore the ancient culture of the Arachosians"
+achculture.12.t:0 "Restore the ancient culture of the Luri"
+achculture.1.d:0 "Our land has been for centuries under the influence and rule of muslims, arabs, mongols and turks, but our policies to eliminate the foreign components of our culture have worked and the majority of the people feel more united to our glorious past."
+achculture.1.a:0 "Our efforts have been effective"
+
+akkadculture.1.t:0 "Restore the ancient culture of the Assyrians"
+akkadculture.2.t:0 "Restore the ancient culture of the Babylonians"
+akkadculture.4.t:0 "Restore the ancient culture of the Elamite"
+akkadculture.1.d:0 "Our land has been for centuries under the influence and rule of muslims, arabs, mongols and turks, but our policies to eliminate the foreign components of our culture have worked and the majority of the people feel more united to our glorious past.""
+akkadculture.1.a:0 "Our people leave the muslim culture and adopt their old one"
+akkadculture.3.t:0 "Mass Deportation"
+akkadculture.3.d:0 "The ancient Assyrian Empire had a practice by which it would deport whole nationalities from one part of the Empire, and spread them over the rest of the Empire. We could resume this practice."
+akkadculture.3.a:0 "Very well, we shall continue this practice"
+akkadcutlure.3.b:0 "No, doing this could destabilise the entire Empire."
+
+niloticculture.1.t:0 "Restore the ancient culture of the old Egyptians Kemetic"
+niloticculture.2.t:0 "Restore the ancient culture of the old Egyptians Wasetic"
+niloticculture.1.d:0 "Our land has been for centuries under the influence and rule of muslims, arabs and turks, but our policies to eliminate the foreign components of our culture have worked and the majority of the people feel more united to our glorious past."
+niloticculture.1.a:0 "Our people leave the muslim culture and adopt their old one"
+
+berberculture.1.t:0 "Restore our old Numidian culture"
+berberculture.2.t:0 "Restore our old Mauretanian culture"
+berberculture.3.t:0 "Restore our old Getuli culture"
+berberculture.4.t:0 "Restore our old Lybian culture"
+berberculture.1.d:0 "For a long time many people refer to us as berber people, but we are all different and want to be independant from the maghreb cultures!"
+berberculture.1.a:0 "Our efforts have been effective"
+berberculture.5.t:0 "Restore our berber culture"
+berberculture.5.d:0 "The berber people declared his independence cultural, but we reached in integrated their culture to ours"
+
+semiticculture.1.t:0 "Restore our old Phoenician culture"
+semiticculture.2.t:0 "Restore our old Aramean culture"
+semiticculture.3.t:0 "Restore our old Palmyrene culture"
+semiticculture.4.t:0 "Restore our old Israelite culture"
+semiticculture.4.d:0 "Romans took our territory many centuries ago! Now we are return to our promise land"
+semiticculture.5.t:0 "Restore our old Eblaite culture"
+semiticculture.6.d:0 "Romans burn our city many centuries ago! But the sons of Carthage never stop!"
+semiticculture.1.d:0 "Our land has been for centuries under the influence and rule of muslims, arabs, mongols and turks, but our policies to eliminate the foreign components of our culture have worked and the majority of the people feel more united to our glorious past."
+semiticculture.1.a:0 "Our efforts have been effective"
+semiticculture.7.t:0 "Syrian culture"
+semiticculture.7.d:0 "This land is syrian!"
+semiticculture.8.t:0 "Tunisian culture"
+semiticculture.8.d:0 "This land is tunisian!"
+
+steppeculture.1.t:0 "Restore the ancient culture of the Khwarezmians"
+steppeculture.2.t:0 "Restore the ancient culture of the Dahaeans"
+steppeculture.3.t:0 "Restore the ancient culture of the Massageteans"
+steppeculture.1.a:0 "Our efforts have been effective"
+
+#########################################################
+# Progressive culture spread
+#########################################################
+greek_culture_conversion.t:0 "People Of $PROVINCENAME$ Adopted Our Culture"
+greek_culture_conversion.d:0 "The majory of the people in $PROVINCENAME$ has adopted our culture. They speak our language and celebrate our festivals."
+#########################################################
+# Religious Events
+#########################################################
+oldReligion.1.t:0 "Return to the Zoroastrianism"
+oldReligion.1.d:0 "Our efforts to get the people to leave Islam and return to Zoroastrianism have worked."
+oldReligion.1.a:0 "Devotion, like fire, rises above."
+oldReligion.2.t:0 "Return to Kemetism"
+oldReligion.2.d:0 "Our efforts to get the people to leave Islam and return to Kemetism have worked."
+oldReligion.2.a:0 "Good"
+oldReligion.3.t:0 "Return to Ashurism"
+oldReligion.3.d:0 "Our efforts to get the people to leave Islam and return to Ashurism have worked."
+oldReligion.3.a:0 "Good"
+oldReligion.4.t:0 "Return to Nestorian"
+oldReligion.4.d:0 "Our efforts to get the people to leave Islam and return to Nestorian have worked."
+oldReligion.4.a:0 "Good"

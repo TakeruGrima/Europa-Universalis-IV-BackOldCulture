@@ -1,0 +1,136 @@
+﻿l_english:
+display_test_title:0 "§MInformation: Pagan Sentiment"
+display_test_desc:0 "§TMouse over the button for enacting a decision to view the current Pagan Sentiment of your provinces.§!\n\n§lMouse over the (?) to view an explanation for testEvent.§!"
+display_test_description:0 "§gThis is an information decision and cannot be enacted.\nMouse over the button to enact the decision to view the national statistics.§!\n\nEach province is described by a §YtestEvent§! variable which evaluates to how strongy the people identify. This variable will evolve smoothly as a function of many parameters, and can slowly spread to nearby provinces. It can change from §Y0 to 75§!, and the province will have its religion 'converted' when the variable reaches §Y50§!, if the population is not pagan, otherwise it will need to reach §Y75§!."
+display_test_effect:0 "§Y[This.GetName]§!'s §OtestEvent§! is currently §Y[This.testEvent.GetValue]§!."
+#########################################################
+# Dynasty Change
+#########################################################
+change_ruler_achaemenid_title:0 "Proclaim to be a descendant of the Achaemenids"
+change_ruler_achaemenid_desc:0 "Proclaim to the world that our ruler is descended from the Achaemenids, rulers of Khshassa, the first Iranian empire."
+change_ruler_arsacid_title:0 "Proclaim to be a descendant of the Arsacids"
+change_ruler_arsacid_desc:0 "Proclaim to the world that our ruler is descended from the Arsacids, rulers of Parthava, the second Iranian Empire."
+change_ruler_sasanid_title:0 "Proclaim to be a descendant of the Sasanids"
+change_ruler_sasanid_desc:0 "Proclaim to the world that our ruler is descended from the Sasanids, rulers of the Eranshahr, the third Iranian empire."
+#########################################################
+# Form the Empires
+#########################################################
+form_khshassa_title:0 "Form the Khshassa"
+form_khshassa_desc:0 "Form the Khshassa and unite all iranian peoples into a new zoroastrian empire."
+form_parthava_title:0 "Form Parthava"
+form_parthava_desc:0 "Form Parthava and unite all iranian peoples into a new zoroastrian empire."
+form_eranshahr_title:0 "Form the Eranshahr"
+form_eranshahr_desc:0 "Form the Eranshahr and unite all iranian peoples into a new zoroastrian empire."
+#########################################################
+# Religion
+#########################################################
+adopt_zoroastrian_iranian_title:0 "Adopt Zoroastrianism"
+adopt_zoroastrian_iranian_desc:0 "Leave islam and retake the religion of our ancestors."
+adopt_zoroastrian_notiranian_title:0 "Adopt Zoroastrianism"
+adopt_zoroastrian_notiranian_desc:0 "Iran is the hearth of our empire, we must adopt the zoroastrian religion as the first step to retake the power and glory of the old persian empires."
+adopt_kemet_title:0 "Adopt Egyptian's religion"
+adopt_kemet_desc:0 "Leave islam and retake the religion of our ancestors"
+adopt_nestorian_title:0 "Adopt Nestorian"
+adopt_nestorian_desc:0 "Leave islam and turn again to the true god"
+adopt_ashurism_title:0 "Adopt Ashurism"
+adopt_ashurism_desc:0 "Leave islam and retake the religion of our ancestors"
+#########################################################
+# New Countries
+#########################################################
+#Iran
+form_bactria_title:0 "Form Bactria"
+form_bactria_desc:0 "Let us make Balkh our capital and form the ancient kingdom of Bactria."
+form_arachosia_title:0 "Form Arachosia"
+form_arachosia_desc:0 "Let us make Kandahar our capital and form the ancient kingdom of Arachosia."
+form_sogdia_title:0 "Form Sogdia"
+form_sogdia_desc:0 "Let us make Samarkand our capital and form the ancient kingdom of Sogdia."
+form_pars_title:0 "Form Pars"
+form_pars_desc:0 "Let us make Pars our capital and form the ancient kingdom of Pars."
+form_parthia_title:0 "Form Parthia"
+form_parthia_desc:0 "Let us make Saddarvazeh our capital and form the ancient kingdom of Parthia."
+form_atropatene_title:0 "Form Atropatene"
+form_atropatene_desc:0 "Let us make Ganzak our capital and form the ancient kingdom of Atropatene."
+form_media_title:0 "Form Media"
+form_media_desc:0 "Reclaim the legacy of the old median empire and make Hamadan our capital"
+form_makran_title:0 "Form Makran"
+form_makran_desc:0 "Let us make Bela our capital and form the ancient kingdom of Makran"
+orm_hyrcania_title:0 "Form Hyrcania"
+form_hyrcania_desc:0 "Let us make Mazandaran our capital and form the ancient kingdom of Hyrcania"
+form_luristan_title:0 "Form Luristan"
+form_luristan_desc:0 "Unite all luri tribes and form the country of Luristan"
+
+#North-Iran
+form_khwarezmia_title:0 "Form Khwarezmia"
+form_khwarezmia_desc:0 "Let us make Urgench our capital and form the ancient kingdom of Khwarezmia"
+form_dahistan_title:0 "Form Dahistan"
+form_dahistan_desc:0 "Let us make Kopet Dag our capital and form the ancient kingdom of Dahistan"
+form_Massagetea_title:0 "Form Massagetae"
+form_Massagetea_desc:0 "Let us make Kyzylkum our capital and form the ancien federation of Massagetae"
+
+#Mesopotamian
+form_assyria_title:0 "Form Assyrian Nation"
+form_assyria_desc:0 "The ancient Assyrian people are restored and free, and can reform the great Assyrian state."
+form_babylon_title:0 "Form Babylon"
+form_babylon_desc:0 "The ancient Babylonian people are restored and free, it is time once again for the walls of Babylon to rise, and the world to be envious of our glory."
+form_elam_title:0 "Form Elamite Nation"
+form_elam_desc:0 "The ancient Elamite people are restored, free and united!"
+
+#Reclaim_heritage
+Reclaim_the_babylone_heritage_title:0 "Reclaim the babylone's heritage"
+Reclaim_the_babylone_heritage_desc:0 "We've conquered the antic place of Babylon, we reclaim the heritage of this antic civilisation! Let's be babylonian!"
+Reclaim_the_assyrian_heritage_title:0 "Reclaim the assyrian's heritage"
+Reclaim_the_assyrian_heritage_desc:0 "We've conquered the antic place of Assur, we reclaim the heritage of this antic civilisation! Let's be assyrian!"
+
+#Nilotic
+form_Kush_title:0 "Form Kushite Kingdom"
+form_Kush_desc:0 "In the old times, a big Nubian kingdom existed in our land, a kingdom which rivaled with the prestigious Egypt and gouverned in his story. Let's reform this old Kingdom and reform his glory!"
+Kushite_egypt_title:0 "Kushite Restoration"
+Kushite_egypt_desc:0 "We are the rightful rulers of Egypt, having ruled the country as Pharaohs at one point, we were driven out by foreign invaders, we are back to Egypt and our power will be surpassed by no-one!"
+form_EGP_title:0 "Form Old-Egyptian Nation"
+form_EGP_desc:0 "After many century of occupation by the persian,the greek, the roman and the arabes, we are finally free to practice our old tradition! Let's reform the prestigious Egyptian Empire"
+Bubastis_restoration_title:0 "Bubastis Restoration"
+Bubastis_restoration_desc:0 "We are the rightful rulers of Egypt, having ruled the country as Pharaohs at one point, we were driven out by kushite invaders, we are back to Egypt and our power will be surpassed by no-one!"
+
+#Berber
+culture_independance_title:0 "Independance cultural"
+culture_independance_desc:0 "For a long time many people refer to us as berber people, but we are all different and want to be independant from the maghreb cultures!"
+form_Numidia_title:0 "Form Numidia"
+form_Numidia_desc:0 "A long time ago, a king named Massinissa want to unite the numidian tribes, he succeed and create a great kingdom! We have a recover this glory!"
+form_Lybia_title:0 "Form Lybia"
+form_Lybia_desc:0 "A long time ago, the lybian was a people whom Egypt was afraid! Let's form Lybia!"
+form_Mauretania_title:0 "Form Mauretania"
+form_Mauretania_desc:0 "Morroco is die! The old berberian mauretanian took their territories! Let's form Mauretania"
+form_Getulia_title:0 "Form Getulia"
+form_Getulia_desc:0 "Let's unite the North Saharan nation!"
+
+#Semitic
+old_strat_sea_people_title:0 "§GStrategic Decision§! - Sea People"
+old_strat_sea_people_desc:0 "This decision give access to some missions to reclaim the legacy of Phoenician people"
+form_Phoenicia_title:0 "Form Phoenicia"
+form_Phoenicia_desc:0 "Let's be the sea people!"
+form_Osroene_title:0 "Form Osroene"
+form_Osroene_desc:0 "Let's form the old kingdom of Osroene"
+unite_the_Aramean_title:0 "Unite the Aramean People"
+unite_the_Aramean_desc:0 "Our people never be united that's why ours kingdom fall! We have to be united to be strong!"
+form_Palmyra_title:0 "Form Palmyra"
+form_Palmyra_desc:0 "Let's form the Palmyrian Kingdom"
+form_Israel_title:0 "Form Israel Kingdom"
+form_Israel_desc:0 "Let's reunite our people!"
+form_EblaKingdom_title:0 "Form the Eblaite Kingdom"
+form_EblaKingdom_desc:0 "Let's form the old Eblaite Kingdom and rebuild Ebla"
+form_Carthage_title:0 "Form the city of Carthage"
+form_Carthage_desc:0 "Let's rebuild the old city of Carthage and show our economic strenght once again"
+
+#Caucasian
+form_ArmenianEmpire_title:0 "Restore the Armenian Glory!"
+form_ArmenianEmpire_desc:0 "We have gain our independance from many country now it's to retake the glory of the Tigranian Empire and be great again!"
+
+#Indian
+form_Magadha_title:0 "Form Magadha"
+form_Magadha_desc:0 "The Kingdom of Magadha was a great Boudhism nation as we are we reclaim their heritage"
+
+#Old-Greek 
+greco_boudhism_heritage_title:0 "Claim the greco-boudhism heritage"
+greco_boudhism_heritage_desc:0 "We found many old temple in North India describe in our sacred text. There are Greco-Indian! Let's claim our heritage!"
+form_greco_india_title:0 "Form Greco-Indian Kingdom"
+form_greco_india_desc:0 "Let us make Sagala our capital and form the ancient Greco-Indian kingdom"

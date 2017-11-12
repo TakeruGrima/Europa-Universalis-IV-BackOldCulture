@@ -1,0 +1,96 @@
+﻿l_english:
+#Iranian Countries
+ KHS:0 "Khshassa"
+ KHS_ADJ:0 "Persian"
+ PAS:0 "Pars"
+ PAS_ADJ:0 "Persian"
+ SOG:0 "Sogdia"
+ SOG_ADJ:0 "Sogdian"
+ PRS:0 "Parthava"
+ PRS_ADJ:0 "Parthian"
+ ATP:0 "Atropatene"
+ ATP_ADJ:0 "Azeri"
+ PRT:0 "Parthia"
+ PRT_ADJ:0 "Parthian"
+ BAC:0 "Bactria"
+ BAC_ADJ:0 "Bactrian"
+ ERA:0 "Eranshahr"
+ ERA_ADJ:0 "Sasanian"
+ ARC:0 "Arachosia"
+ ARC_ADJ:0 "Arachosian"
+ LRS:0 "Luristan"
+ LRS_ADJ:0 "Luri"
+ MDA:0 "Media"
+ MDA_ADJ:0 "Mede"
+ MKR:0 "Makran"
+ MKR_ADJ:0 "Makrani"
+ HYR:0 "Hyrcania"
+ HYR_ADJ:0 "Hyrcanian"
+
+#North Iran Countries
+ ALA:0 "Alania"
+ ALA_ADJ:0 "Alans"
+ SRM:0 "Sarmatia"
+ SRM_ADJ:0 "Sarmatian"
+ DHS:0 "Dahistan"
+ DHS_ADJ:0 "Dahaean"
+ KWZ:0 "Khwarezmia" 
+ KWZ_ADJ:0 "Khwarezmian"
+ MAS:0 "Massagetae"
+ MAS_ADJ:0 "Massagetaen"
+
+#Mesopatamian Countries
+ BAB:0 "Babylon"
+ BAB_ADJ:0 "Babylonian"
+ ASY:0 "Assyria"
+ ASY_ADJ:0 "Assyrian"
+ ELM:0 "Elam"
+ ELM_ADJ: "Elamite"
+
+#Caucasian Countries
+ EAR:0 "Armenian Empire"
+ EAR_ADJ:0 "Armenian"
+
+#Nilotic Countries
+ MEO:0 "Kush"
+ MEO_ADJ: "Kushite"
+ EGP:0 "Egypt"
+ EGP_ADJ: "Egyptian"
+
+#Berber Countries
+ LYB:0 "Lybia"
+ LYB_ADJ:0 "Lybian"
+ BNU:0 "Numidia"
+ BNU_ADJ:0 "Numidian"
+ MAU:0 "Mauretania"
+ MAU_ADJ:0 "Mauretanian"
+ GET:0 "Getulia"
+ GET_ADJ:0 "Getulian"
+
+#Semitic Countries
+ OSR:0 "Osroene"
+ OSR_ADJ:0 "Osroenian"
+ PHO:0 "Phoenicia"
+ PHO_ADJ:0 "Phoenician"
+ SRA:0 "Aram"
+ SRA_ADJ:0 "Aramean"
+ PLM:0 "Palmyra"
+ PLM_ADJ:0 "Palmyrene"
+ ISR:0 "Israel"
+ ISR_ADJ:0 "Israelite"
+ EBL:0 "Ebla"
+ EBL_ADJ:0 "Eblaite"
+ CAE:0 "Carthage"
+ CAE_ADJ:0 "Carthagian"
+
+#Indian Countries
+ BMA:0 "Magadha"
+ BMA_ADJ:0 "Magadhan"
+
+#Old greek countries
+ IGR:0 "Greco-India"
+ IGR_ADJ:0 "Greco-Indian"
+ 
+ #Anatolian countries
+ LYC:0 "Lycia"
+ LYC_ADJ:0 "Lycian"

@@ -1,0 +1,5 @@
+government = despotic_monarchy 
+primary_culture = greco_indian
+religion = mahayana
+technology_group = eastern
+capital = 2076 # Sialkot
